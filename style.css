@@ -5,10 +5,9 @@ body {
     width: 100%;
     line-height: 1.5rem;
     background-color: white;
-
 }
 
-.header-nav {
+.header {
     display: flex;
     align-items:flex-end;
     justify-content:space-around;
@@ -17,48 +16,41 @@ body {
     background-color: black;   
 }
 
-
-.header-nav__leftlogo {
+.header__logo {
     text-align:center;
     line-height: 1%   
 }
 
-
-.header-nav--title {
+.header__logo_title {
     font-size: 60px;
-    color: white;
-   
+    color: white;   
 }
 
-.header-nav--subtitle {
+.header__logo_subtitle {
     font-size: 30px;
-    color: white;
-   
+    color: white;   
 }
 
-
-.topnav {
+.header__nav {
     padding-bottom: 20px;
     font-size: 30px; 
 }
 
-
-.topnav a { 
+.header__nav a { 
     text-decoration: none;
-
 }
 
-.topnav a:link{
+.header__nav a:link{
     color: white
 }
 
-.topnav a:hover{
+.header__nav a:hover{
     text-decoration: underline;
     text-align: center;
     padding: 4px 4px;
 }
 
-.topnav a:visited {
+.header__nav a:visited {
     color:rgb(241,217,122);
 }
 
@@ -84,14 +76,13 @@ body {
     right: 60px;
     line-height: 0px;
     color:rgb(241,217,122);
-
 }
 
-.bannerphoto--maintxt {
+.bannerphoto__tx_maintxt {
     font-size: 80px;  
 }
 
-.bannerphoto--subtxt {
+.bannerphoto__txt_subtxt {
     font-size: 40px;
 }
 
@@ -104,8 +95,7 @@ body {
 .content-buttons {
     display: flex;
     justify-content:flex-end;
-    margin-top: -50px;
-   
+    margin-top: -50px; 
 }
 
 .content-buttons__link {
@@ -115,7 +105,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     background-color: rgb(221,160,53);
-
 }
 
 .about {
@@ -152,48 +141,42 @@ footer {
 
 @media screen and  (min-width: 768px) and (max-width:1370px){
 
-.header-nav {
-    min-height: 150px;
-    
+.header {
+    min-height: 150px;   
 }
 
-.header-nav__leftlogo {
+.header__logo {
     color: white;
     position: absolute;
     top: 0;
     text-align: center;
 }
 
-.header-nav--title {
+.header__logo_title {
     font-size: 46px;
-
 }
 
-.header-nav--subtitle {
-    font-size: 28px;
-    
+.header__logo_subtitle {
+    font-size: 28px;   
 }
 
-.topnav {
+.header__nav {
     overflow: hidden;
     display:contents;
     text-align:center;
-    font-size: 28px;
-    
+    font-size: 28px;   
 }
 
-.topnav a {
+.header__nav a {
     text-decoration: none;
- 
-
 }
 
-.topnav a:hover {
+.header__nav a:hover {
     background-color: antiquewhite;
     color: black;
 }
 
-.topnav a:active {
+.header__nav a:active {
     background-color: darkgoldenrod;
     color:white
 }
@@ -205,21 +188,19 @@ footer {
     background-color: black;
     position:relative;
     background-position: 0px -30px;
-
 }
 
 .bannerphoto__txt {
     color:rgb(253, 253, 170);
     line-height: 10px;
     text-align: center;
-
 }
 
-.bannerphoto--maintxt {
+.bannerphoto__txt_maintxt {
     font-size: 40px; 
 }
 
-.bannerphoto--subtxt {
+.bannerphoto__txt_subtxt {
     font-size: 30px;
 }
 
@@ -249,7 +230,6 @@ footer {
     margin-top: 10px;
     float: right;
 }
- 
 }
 
 
@@ -257,40 +237,38 @@ footer {
 
 @media screen and  (max-width: 767px) {
 
-
-
-.header-nav {
+.header {
     min-height: 150px;   
 }
     
-.header-nav__leftlogo {
+.header__logo {
     color: white;
     position: absolute;
     top: 0;
     text-align: center;
 }
     
-.header-nav--title {
+.header__logo_title {
     font-size: 34px;
 }
     
-.header-nav--subtitle {
+.header__logo_subtitle {
     font-size: 20px;
 }
     
-.topnav {
+.header__nav {
     overflow: hidden;
     font-size: 13px;
     display: contents;
     text-align: center;
 }
     
-.topnav a:hover {
+.header__nav a:hover {
     background-color: antiquewhite;
     color: black;
 }
     
-.topnav a:active {
+.header__nav a:active {
     background-color: darkgoldenrod;
     color:white
 }
@@ -310,11 +288,11 @@ footer {
     top: 170px;
 }
     
-.bannerphoto--maintxt {
+.bannerphoto__txt_maintxt {
     font-size: 35px; 
 }
     
-.bannerphoto--subtxt {
+.bannerphoto__txt_subtxt {
     font-size: 20px;
 }
     
@@ -331,13 +309,10 @@ footer {
     padding-left: 10px;
 }
 
-
 .about__image {
     display:grid;
     padding: 0 5px 0px 5px;
     width: 200px;
     height: 290px;
-
-}
-    
+}   
 }
