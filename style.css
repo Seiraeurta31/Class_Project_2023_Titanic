@@ -13,7 +13,12 @@ body {
     justify-content:space-around;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
-    background-color: black;   
+    background-color: black;
+    border-bottom: rgb(219,129,56) 8px solid;
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 3;
 }
 
 .header__logo {
@@ -62,7 +67,6 @@ body {
     background-color: black;
     position:relative;
     padding-top: 20px;
-    border-top: rgb(219,129,56) 8px solid;
     background-position: 0px -100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
