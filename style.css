@@ -210,6 +210,11 @@ body {
     margin-top: 20px;
 }
 
+.spfx_card_text__learn_more:hover {
+    color: rgb(147, 37, 37);
+    text-decoration: underline;
+}
+
 /******** spfx content *********/
 
 
