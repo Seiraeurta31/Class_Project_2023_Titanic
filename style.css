@@ -55,7 +55,7 @@ body {
 }
 
 .bannerphoto {
-    background: url(/image/titanic.jpg) no-repeat center;
+    background: url(/image/titanic.jpg) no-repeat center; 
     width: 100%;
     height: 450px;
     background-size: cover;
@@ -316,3 +316,285 @@ footer {
     height: 290px;
 }   
 }
+/*=================================
+Cast Page Styling
+===================================*/
+.castbanner {
+    background: url(/image/castbanner.png) no-repeat center;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-color: black;
+    position:relative;
+    padding-top: 20px;
+    border-top: rgb(219,129,56) 8px solid;
+    background-position: 0px -100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.castbanner__txt {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    line-height: 0px;
+    color:rgb(241,217,122);
+}
+
+.castbanner__txt_maintxt {
+    font-size: 80px;
+}
+
+.castbanner__txt_subtxt {
+    font-size: 40px;
+}
+.cast-about {
+    font-size: 40px;
+    margin-top: -20px;
+    padding-left: 10px;
+    color:rgb(11, 59, 101)
+}
+.cast-title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.cast-text {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: main;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    row-gap: 50px;
+    column-gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+.cast-people {
+        background-color:rgb(241,217,122);
+        max-width: 275px;
+        max-height: 275px;
+        text-align: center;
+        border: solid 8px;
+        border-color: rgb(23, 62, 141);
+        padding-bottom: 2px;
+        padding-top: 2px;
+}
+    .main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .nav {
+        margin: 0;
+        padding: 0;
+    }
+    .cast-member {
+        margin-bottom: 40px;
+    }
+    .awards__button {
+        display: flex;
+        justify-content: end;
+        max-width: 2700px;
+        background-color: blanchedalmond;
+        font-size: 18px;
+        font-family: serif;
+        margin: auto;
+        margin-top: 25px;
+        border: solid black 1px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    .awards__button:hover {
+        color: rgb(246, 240, 238);
+        background-color: rgb(23, 62, 141);
+        cursor: pointer;
+        animation: hover 0.5s infinite alternate-reverse;
+        transition: 0.5s;
+    }
+    @keyframes hover {
+        to {
+           transform: translateX(3px);
+        }
+     }
+/******** end cast page content *********/
+/******* start cast page media for iPad*******/
+@media screen and  (min-width: 768px) and (max-width:1370px){
+
+    .header {
+        min-height: 150px;   
+    }
+    
+    .header__logo {
+        color: white;
+        position: absolute;
+        top: 0;
+        text-align: center;
+    }
+    
+    .header__logo_title {
+        font-size: 46px;
+    }
+    
+    .header__logo_subtitle {
+        font-size: 28px;   
+    }
+    
+    .header__nav {
+        overflow: hidden;
+        display:contents;
+        text-align:center;
+        font-size: 28px;   
+    }
+    
+    .header__nav a {
+        text-decoration: none;
+    }
+    
+    .header__nav a:hover {
+        background-color: antiquewhite;
+        color: black;
+    }
+    
+    .header__nav a:active {
+        background-color: darkgoldenrod;
+        color:white
+    }
+    
+    .bannerphoto {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-color: black;
+        position:relative;
+        background-position: 0px -30px;
+    }
+    
+    .bannerphoto__txt {
+        color:rgb(253, 253, 170);
+        line-height: 10px;
+        text-align: center;
+    }
+    
+    .bannerphoto__txt_maintxt {
+        font-size: 40px; 
+    }
+    
+    .bannerphoto__txt_subtxt {
+        font-size: 30px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas: main;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+        row-gap: 50px;
+        column-gap: 10px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        justify-content: center;
+        padding: 20px;
+    }
+    .body {
+        max-width: 1200px;
+        padding: 0 50px 0 0;
+    }
+    .cast-people {
+        position: relative;
+        width: 350px;
+        height: 300px;
+    }
+    .cast-about {
+        text-align: center;
+    }
+}
+/******* end cast page media for iPad*******/
+/******* start cast page media for iPhone*******/
+@media screen and  (max-width: 767px) {
+
+    .header {
+        min-height: 150px;   
+    }
+        
+    .header__logo {
+        color: white;
+        position: absolute;
+        top: 0;
+        text-align: center;
+    }
+        
+    .header__logo_title {
+        font-size: 34px;
+    }
+        
+    .header__logo_subtitle {
+        font-size: 20px;
+    }
+        
+    .header__nav {
+        overflow: hidden;
+        font-size: 13px;
+        display: contents;
+        text-align: center;
+    }
+        
+    .header__nav a:hover {
+        background-color: antiquewhite;
+        color: black;
+    }
+        
+    .header__nav a:active {
+        background-color: darkgoldenrod;
+        color:white
+    }
+        
+    .bannerphoto {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-color: black;
+        position:relative;
+        background-position: 0px -30px;
+    }
+        
+    .bannerphoto__txt {
+        color:rgb(253, 253, 170);
+        position:absolute;
+        top: 170px;
+    }
+        
+    .bannerphoto__txt_maintxt {
+        font-size: 35px; 
+    }
+        
+    .bannerphoto__txt_subtxt {
+        font-size: 20px;
+    }
+    .cast-about {
+        text-align: center;
+    }
+}
+/******* end cast page media for iPhone*******/
+    /* Elements */
+    .header__title {
+        margin: 0;
+    }
+    
+    .nav__list {
+        list-style: none;
+    }
+    
+    .nav__item {
+        display: inline-block;
+        margin-right: 20px;
+    }
