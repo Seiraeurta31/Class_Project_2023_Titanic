@@ -38,6 +38,7 @@ body {
 .header__nav {
     padding-bottom: 20px;
     font-size: 30px; 
+    text-align: center;
 }
 
 .header__nav a { 
@@ -512,7 +513,7 @@ footer {
     
 .header__nav {
     overflow: hidden;
-    font-size: 13px;
+    font-size: 18px;
     display: contents;
     text-align: center;
 }
