@@ -85,18 +85,18 @@ hr {
 
 .bannerphoto__txt {
     position: absolute;
-    top: 30px;
-    right: 60px;
+    top: 100px;
+    right: 150px;
     line-height: 0px;
     color:rgb(241,217,122);
 }
 
-.bannerphoto__tx_maintxt {
-    font-size: 80px;  
+.bannerphoto__txt_maintxt {
+    font-size: 100px;  
 }
 
 .bannerphoto__txt_subtxt {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 
@@ -396,11 +396,19 @@ footer {
 }
 
 .bannerphoto__txt_maintxt {
-    font-size: 40px; 
+    font-size: 50px; 
 }
 
 .bannerphoto__txt_subtxt {
     font-size: 30px;
+}
+
+.bannerphoto__txt {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    line-height: 0px;
+    color:rgb(241,217,122);
 }
 
 .content-buttons {
@@ -540,15 +548,15 @@ footer {
 .bannerphoto__txt {
     color:rgb(253, 253, 170);
     position:absolute;
-    top: 170px;
+    top: 190px;
 }
     
 .bannerphoto__txt_maintxt {
-    font-size: 35px; 
+    font-size: 45px; 
 }
     
 .bannerphoto__txt_subtxt {
-    font-size: 20px;
+    font-size: 25px;
 }
     
 .content-buttons {
