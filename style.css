@@ -151,10 +151,12 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight:lighter;
     margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
 
 }
 
-.spfx_main__card_container {
+.spfx_main__topic_container {
     display: grid;
     grid-template-columns: 600px 600px;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
@@ -163,7 +165,7 @@ body {
     column-gap: 100px;
 }
 
-.spfx_card {
+.spfx_topic {
     display: flex;
     width: 600px;
     height: 250px;
@@ -171,7 +173,7 @@ body {
     border-radius: 3px;
 }
 
-.spfx_card__img {
+.spfx_topic__img {
     float: left;
     margin: 20px;
     border-top-left-radius: 3px;
@@ -180,38 +182,44 @@ body {
     height: 200px;
 }
 
-.spfx_card__text_block {
+.spfx_topic__text_block {
     max-width: 200px;
     max-height: 300px;
 }
 
 
-.spfx_card__details {
+.spfx_topic__details {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
 }
 
-.spfx_card___spfx_topic {
+.spfx_topic___title {
     font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
+    color: rgb(141, 48, 8);
     
 }
 
-.spfx_card_text__learn_more {
-    font-size: 20px;
+.spfx_topic__learn_more_link {
+    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    margin-top: 20px;
+    color: black;
+    text-decoration: none;
 }
 
-.spfx_card_text__learn_more:hover {
+.spfx_topic__learn_more_link:hover {
     color: rgb(147, 37, 37);
     text-decoration: underline;
+}
+
+.spfx_page .bannerphoto {
+    background: url(/image/spfx-banner-titanic.jpg) no-repeat center;
 }
 
 /******** end spfx content *********/
@@ -345,27 +353,31 @@ footer {
 }
 
 
-.spfx_main__card_container {
+.spfx_main__topic_container {
     grid-template-columns: 300px 300px;
     column-gap: 100px;
-    row-gap: 50px;
+    row-gap: 70px;
     padding: 30 px;
     justify-content: center;
 }
 
-
-.spfx_card {
+.spfx_topic {
     position: relative; 
     width: 350px;
     height: 450px;
 }
 
-.spfx_card__text_block {
+.spfx_topic__text_block {
     position: absolute;
     top: 220px;
     left: 20px;  
-    max-width: 320px;
+    max-width: 300px;
 }
+
+.spfx_topic___title, .spfx_topic__learn_more_link {
+    text-align: center;
+}
+
 
 
 /******** end spfx ipad content *********/
@@ -483,19 +495,19 @@ footer {
 }
 
 
-.spfx_main__card_container {
+.spfx_main__topic_container {
     grid-template-columns: 500px;
     justify-content: center;
 }
 
 
-.spfx_card {
+.spfx_topic {
     position: relative; 
     width: 500px;
     height: 500px;
 }
 
-.spfx_card__img {
+.spfx_topic__img {
     float: left;
     margin: 20px;
     border-top-left-radius: 3px;
@@ -504,12 +516,14 @@ footer {
     height: 300px;
 }
 
-.spfx_card__text_block {
+.spfx_topic__text_block {
     position: absolute;
     top: 320px;
     left: 20px;  
     max-width: 500px; 
 }
+
+
 
 
 /******** end spfx iphone content *********/
