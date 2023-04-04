@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     height: 100%;
@@ -13,7 +12,12 @@ body {
     justify-content:space-around;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
-    background-color: black;   
+    background-color: black;
+    border-bottom: rgb(219,129,56) 8px solid;
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 3;
 }
 
 .header__logo {
@@ -54,6 +58,11 @@ body {
     color:rgb(241,217,122);
 }
 
+hr { 
+    width: 100%;
+    color: black;
+}
+
 .bannerphoto {
     background: url(/image/titanic.jpg) no-repeat center; 
     width: 100%;
@@ -62,12 +71,15 @@ body {
     background-color: black;
     position:relative;
     padding-top: 20px;
-    border-top: rgb(219,129,56) 8px solid;
     background-position: 0px -100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-align: center;
     text-transform: uppercase;
+}
+
+.themes .bannerphoto {
+    background: url(/themesimage/onset.jpg);
 }
 
 .bannerphoto__txt {
@@ -85,6 +97,8 @@ body {
 .bannerphoto__txt_subtxt {
     font-size: 40px;
 }
+
+
 
 .content {
     max-width: 1200px;
@@ -122,10 +136,182 @@ body {
     height: 290px;
 }
 
+.themes__image {
+    display: flex;
+    justify-content: center;
+    padding: 20px 180px 20px 0px;
+    align-items: center;
+    width: 1200px;
+    margin-bottom: 30px;
+    
+}
+
+.themes__image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin-bottom: 20px;
+}
+
+.themes__image2 {
+    display: flex;
+    justify-content: left;
+    float: left;
+    width: 500px;
+    padding: 20px 40px 40px 0px;
+}
+
+.themes__image3 {
+    width: 1200px
+}
+
+.themes__image4 {
+    width: 500px;
+    float: left;
+    padding: 20px;
+}
+
+.themes__image5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin-bottom: 20px;
+}
+
 .about__text {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+/******** spfx content *********/
+
+.spfx_content {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+}
+
+.spfx_h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.spfx_main__topic_container {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-areas: spfx_content;
+    row-gap: 60px;
+    column-gap: 100px;
+}
+
+.spfx_topic {
+    display: flex;
+    width: 600px;
+    height: 250px;
+    box-shadow: var(--gray) 4px 4px 10px 2px;
+    border-radius: 3px;
+}
+
+.spfx_topic__img {
+    float: left;
+    margin: 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: auto;
+    height: 200px;
+}
+
+.spfx_topic__text_block {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+
+.spfx_topic__details {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.spfx_topic___title {
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgb(141, 48, 8); 
+}
+
+.spfx_topic__learn_more_link {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.spfx_topic__learn_more_link:hover {
+    color: rgb(147, 37, 37);
+    text-decoration: underline;
+}
+
+.spfx_page .bannerphoto {
+    background: url(/image/spfx-banner-titanic.jpg) no-repeat center;
+}
+
+/******** end spfx content *********/
+
+
+
+.themes .about_text {
+    text-indent: 50px;
+}
+
+.themes__fact{ 
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 1000px;
+    margin: 0px 50px 40px 50px;
+    padding: 40px 40px 40px;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid;
+    border-color:rgb(241,217,122);;
+}
+
+.themes__quotes { 
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 50px 40px 40px 50px;
+    padding: 40px 50px 40px;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid;
+    border-color: #061761;
+}
+
+.themes__subhead {
+    display: flex;
+    justify-content: center;
+    padding: 30px 35px 35px 35px;
+    font-weight: bolder;
+    margin: 0px 200px 0px 200px;
+}
+
 
 footer {
     color:white;
@@ -135,6 +321,14 @@ footer {
     justify-content:center;
     border-top: rgb(219,129,56) 8px solid;
 }
+
+
+
+
+
+
+
+
 
 
 /* responsive screen for iPads */
@@ -181,7 +375,7 @@ footer {
     color:white
 }
 
-.bannerphoto {
+.bannerphoto{
     width: 100%;
     height: 250px;
     background-size: cover;
@@ -230,7 +424,51 @@ footer {
     margin-top: 10px;
     float: right;
 }
+
+
+/******** spfx ipad content *********/
+
+.spfx_content {
+    max-width: 1200px;
+    padding: 0 50px 0 0;
 }
+
+.spfx_h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spfx_main__topic_container {
+    grid-template-columns: 300px 300px;
+    column-gap: 100px;
+    row-gap: 70px;
+    padding: 30 px;
+    justify-content: center;
+}
+
+.spfx_topic {
+    position: relative; 
+    width: 350px;
+    height: 450px;
+}
+
+.spfx_topic__text_block {
+    position: absolute;
+    top: 220px;
+    left: 20px;  
+    max-width: 300px;
+}
+
+.spfx_topic___title, .spfx_topic__learn_more_link {
+    text-align: center;
+}
+
+/******** end spfx ipad content *********/
+
+}
+
+
 
 
 /* responsive screen for phones */
@@ -314,8 +552,60 @@ footer {
     padding: 0 5px 0px 5px;
     width: 200px;
     height: 290px;
-}   
+}  
+
+
+/******** spfx iphone content *********/
+
+.spfx_content {
+    max-width: 1200px;
+    padding: 0 30px 0 0;
+
 }
+
+.spfx_h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.spfx_main__topic_container {
+    grid-template-columns: 500px;
+    justify-content: center;
+}
+
+
+.spfx_topic {
+    position: relative; 
+    width: 500px;
+    height: 500px;
+}
+
+.spfx_topic__img {
+    float: left;
+    margin: 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: auto;
+    height: 300px;
+}
+
+.spfx_topic__text_block {
+    position: absolute;
+    top: 320px;
+    left: 20px;  
+    max-width: 500px; 
+}
+
+/******** end spfx iphone content *********/
+
+}
+
+
+
+
+
 /*=================================
 Cast Page Styling
 ===================================*/
@@ -428,6 +718,11 @@ Cast Page Styling
         }
      }
 /******** end cast page content *********/
+
+
+
+
+
 /******* start cast page media for iPad*******/
 @media screen and  (min-width: 768px) and (max-width:1370px){
 
@@ -509,6 +804,8 @@ Cast Page Styling
         max-width: 1200px;
         padding: 0 50px 0 0;
     }
+    
+    
     .cast-people {
         position: relative;
         width: 350px;
@@ -517,8 +814,12 @@ Cast Page Styling
     .cast-about {
         text-align: center;
     }
-}
+    
 /******* end cast page media for iPad*******/
+}
+
+
+
 /******* start cast page media for iPhone*******/
 @media screen and  (max-width: 767px) {
 
@@ -577,14 +878,18 @@ Cast Page Styling
         font-size: 35px; 
     }
         
+       
     .bannerphoto__txt_subtxt {
         font-size: 20px;
     }
+    
     .cast-about {
         text-align: center;
     }
-}
+
 /******* end cast page media for iPhone*******/
+
+
     /* Elements */
     .header__title {
         margin: 0;
@@ -598,3 +903,8 @@ Cast Page Styling
         display: inline-block;
         margin-right: 20px;
     }
+}  
+  
+  
+  
+
