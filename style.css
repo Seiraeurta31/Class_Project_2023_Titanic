@@ -688,7 +688,7 @@ hr {
     
 .header__nav {
     overflow: hidden;
-    font-size: 18px;
+    font-size: 15px;
     display: contents;
     text-align: center;
 }
@@ -782,10 +782,6 @@ hr {
 
 .themes .header__logo_title {
     font-size: 25px;
-}
-
-.themes .header__nav {
-    font-size: 15px;
 }
 
 .themes .bannerphoto {
