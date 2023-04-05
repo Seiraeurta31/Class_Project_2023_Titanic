@@ -83,21 +83,6 @@ hr {
     padding: 8px;
 }
 
-.content-buttons {
-    display: flex;
-    justify-content:flex-end;
-    margin-top: -50px; 
-}
-
-.content-buttons__link {
-    padding: 10px 30px;
-    margin: 0px 0px 0px 20px;
-    border-radius: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    background-color: rgb(221,160,53);
-}
-
 footer {
     color:white;
     background-color: rgb(39,95,142);
@@ -109,6 +94,32 @@ footer {
 
 /* -------- end of universal layout, start of About content --------- */
 
+.content-buttons {
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -50px; 
+}
+
+.content-buttons__link {
+    padding: 10px 30px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(221,160,53); 
+    box-shadow: 0 7px black;
+    cursor: pointer;
+}
+
+.content-buttons__link:hover {
+    color: white;
+}
+
+.content-buttons__link:active {
+    box-shadow: 0 2px grey;
+    transform: translateY(2px);
+}
+
 .about {
     font-size: 50px;
     text-transform: uppercase;
@@ -119,9 +130,9 @@ footer {
 
 .about__image {
     float: right;
-    padding: 50px 10px 0px 5px;
-    width: 200px;
-    height: 290px;
+    padding: 0px 10px 0px 10px;
+    width: 250px;
+    height: 366px;
 }
 
 .about__text {
@@ -506,8 +517,8 @@ footer {
 
 .about__image {
     padding: 0 5px 0px 5px;
-    width: 150px;
-    height: 220px;
+    width: 250px;
+    height: 366px;
     margin-top: 10px;
     float: right;
 }
@@ -587,7 +598,7 @@ footer {
     
 .header__nav {
     overflow: hidden;
-    font-size: 18px;
+    font-size: 14px;
     display: contents;
     text-align: center;
 }
@@ -627,8 +638,8 @@ footer {
 .about__image {
     display:grid;
     padding: 0 5px 0px 5px;
-    width: 200px;
-    height: 290px;
+    width: 160px;
+    height: 234px;
 }  
 /******** End about iphone *********/ 
 
@@ -797,7 +808,7 @@ footer {
 
 
 /******* start cast page media for iPhone*******/
-
+/*
 @media screen and  (max-width: 767px) {
 
     .header {
@@ -881,3 +892,5 @@ footer {
         display: inline-block;
         margin-right: 20px;
     }
+
+    */
