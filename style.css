@@ -22,7 +22,8 @@ body {
 
 .header__logo {
     text-align:center;
-    line-height: 1%   
+    line-height: 1%;
+     
 }
 
 .header__logo_title {
@@ -86,6 +87,7 @@ hr {
     right: 150px;
     line-height: 0px;
     color:rgb(241,217,122);
+    text-shadow: 2px 2px lightslategray;
 }
 
 .bannerphoto__txt_maintxt {
