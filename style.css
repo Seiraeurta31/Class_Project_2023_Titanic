@@ -341,7 +341,22 @@ hr {
 }
 
 .themes .bannerphoto {
-    background: url(/themesimage/onset.jpg);
+    background: url(/themesimage/jackandrose.png) no-repeat center;
+    background-size: cover;
+    background-position: 0px -75px;
+}
+
+.themes__about {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    margin-top: -20px;
+}
+
+.themes__text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /******** End theme content *********/
@@ -562,6 +577,85 @@ hr {
 
 /******** End spfx ipad *********/
 
+/******** start themes ipad ***********/
+
+.themes .bannerphoto {
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.themes__text {
+    display: flex;
+    justify-content: center;
+    padding: 0px 45px 0px 45px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+.themes__fact {
+    max-width: fit-content;
+    margin: 10px 0px 20px 0px;
+}
+
+.themes__image {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image1 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image2 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image3 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image4 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 75px 10px 15px;
+    }
+
+.themes__image5 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 45px 10px 30px;
+    }
+
+.themes__about {
+    display: flex;
+    justify-content: center;
+    }
+
+.themes__quotes {
+    justify-content: center;
+    margin-right: 75px;
+}
+
+.themes__fact {
+    margin: 25px 75px 25px 55px;
+}
+
+/*****End of themes ipad ********/
+
 }
 
 /*******************************************  END responsive ipad **************************************/
@@ -683,6 +777,99 @@ hr {
 }
 
 /******** End spfx iphone *********/
+
+/******** start themes iphone *********/
+
+.themes .header__logo_title {
+    font-size: 25px;
+}
+
+.themes .header__nav {
+    font-size: 15px;
+}
+
+.themes .bannerphoto {
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.themes__text {
+    display: flex;
+    justify-content: center;
+    padding: 0px 45px 0px 45px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+.themes__fact {
+    max-width: fit-content;
+    margin: 10px 0px 20px 0px;
+}
+
+.themes__image {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 35px;
+}
+
+.themes__image1 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__image2 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__image3 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__image4 {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: 25px 35px 25px 10px;
+}
+
+.themes__image5 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__about {
+    display: flex;
+    justify-content: center;
+ }
+
+.themes__quotes {
+    justify-content: center;
+    margin-right: 75px;
+}
+
+.themes__fact {
+    margin: 25px 75px 25px 55px;
+}
+
+.themes__subhead {
+    display: flex;
+    justify-content: center;
+    margin: 25px 55px 25px 50px;
+
+}
+/************** end themes iphone ***********************/
 
 }
 
@@ -871,8 +1058,8 @@ hr {
         text-align: center;
     }
 }
-/******* end cast page media for iPhone*******/
 
+/******* end cast page media for iPhone*******/
 /*
    (JENNY TO DELETE AS NEEDED)
     .header__title {
