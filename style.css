@@ -363,7 +363,7 @@ footer {
     grid-template-columns: 600px 600px;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-areas: spfx_content;
-    row-gap: px;
+    row-gap: 40px;
     column-gap: 100px;
 }
 
@@ -403,7 +403,7 @@ footer {
     font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    color: rgb(141, 48, 8); 
+    color: rgb(5, 74, 149); 
 }
 
 .spfx_topic__learn_more_link {
@@ -416,6 +416,7 @@ footer {
 
 .spfx_topic__learn_more_link:hover {
     color: rgb(147, 37, 37);
+    font-size: 20px;
     text-decoration: underline;
 }
 
@@ -435,7 +436,7 @@ footer {
 
 /* responsive screen for iPads */
 
-@media screen and  (min-width: 780px) and (max-width:1370px){
+@media screen and  (min-width: 600px) and (max-width:1370px){
 
 /******** Start about ipad *********/
 
@@ -529,7 +530,7 @@ footer {
 .spfx_main__topic_container {
     grid-template-columns: 300px 300px;
     grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
-    column-gap: 100px;
+    column-gap: 60px;
     row-gap: 70px;
     padding: 30 px;
     justify-content: center;
@@ -560,14 +561,12 @@ footer {
 
 
 
-
-
 /******************************************* START responsive iphone **************************************/
 
 
 /* responsive screen for phones */
 
-@media screen and  (max-width: 780px) {
+@media screen and  (max-width: 599px) {
 
 
 /******** Start about iphone *********/  
@@ -636,42 +635,42 @@ footer {
 /******** Start spfx iphone *********/
 
 .spfx_content {
-    max-width: 1200px;
-    padding: 0 30px 0 0;
-
+    max-width: 1300px;
+    padding: 0 10px 0 0;
 }
 
 .spfx_h1 {
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 
 
 .spfx_main__topic_container {
-    grid-template-columns: 500px;
+    grid-template-columns: 300px;
+    row-gap: 20px;
     justify-content: center;
 }
 
 
 .spfx_topic {
     position: relative; 
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 425px;
 }
 
 .spfx_topic__img {
     float: left;
-    margin: 20px;
+    margin: 10px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     width: auto;
-    height: 300px;
+    height: 190px;
 }
 
 .spfx_topic__text_block {
     position: absolute;
-    top: 320px;
+    top: 200px;
     left: 20px;  
     max-width: 500px; 
 }
