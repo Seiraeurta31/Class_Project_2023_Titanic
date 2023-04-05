@@ -22,8 +22,7 @@ body {
 
 .header__logo {
     text-align:center;
-    line-height: 1%;
-     
+    line-height: 1%   
 }
 
 .header__logo_title {
@@ -40,7 +39,8 @@ body {
 .header__nav a { 
     text-decoration: none;
     padding-bottom: 10px;
-    margin: 0 10px;
+    margin: 0 15px;
+
 }
 
 .header__nav a:link{
@@ -197,14 +197,14 @@ footer {
     justify-content: center;
 }
 .cast-people {
-        background-color:rgb(241,217,122);
-        max-width: 275px;
-        max-height: 275px;
-        text-align: center;
-        border: solid 8px;
-        border-color: rgb(23, 62, 141);
-        padding-bottom: 2px;
-        padding-top: 2px;
+    background-color:rgb(241,217,122);
+    max-width: 275px;
+    max-height: 275px;
+    text-align: center;
+    border: solid 8px;
+    border-color: rgb(23, 62, 141);
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
 
 .main {
@@ -363,7 +363,7 @@ footer {
     grid-template-columns: 600px 600px;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-areas: spfx_content;
-    row-gap: 60px;
+    row-gap: px;
     column-gap: 100px;
 }
 
@@ -426,7 +426,7 @@ footer {
 /******** end spfx content *********/
 
 
-/******************************************* END Page Code *****************************************/
+/******************************************* END Page Content *****************************************/
 
 
 
@@ -528,6 +528,7 @@ footer {
 
 .spfx_main__topic_container {
     grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
     column-gap: 100px;
     row-gap: 70px;
     padding: 30 px;
@@ -823,7 +824,7 @@ footer {
         
     .header__nav {
         overflow: hidden;
-        font-size: 13px;
+        font-size: 18px;
         display: contents;
         text-align: center;
     }
