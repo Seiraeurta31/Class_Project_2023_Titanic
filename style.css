@@ -30,11 +30,6 @@ body {
     color: white;   
 }
 
-.header__logo_subtitle {
-    font-size: 30px;
-    color: white;   
-}
-
 .header__nav {
     padding-bottom: 20px;
     font-size: 30px; 
@@ -45,6 +40,7 @@ body {
     text-decoration: none;
     padding-bottom: 10px;
     margin: 0 15px;
+
 }
 
 .header__nav a:link{
@@ -81,24 +77,6 @@ hr {
     text-transform: uppercase;
 }
 
-
-.bannerphoto__txt {
-    position: absolute;
-    top: 100px;
-    right: 150px;
-    line-height: 0px;
-    color:rgb(241,217,122);
-}
-
-.bannerphoto__txt_maintxt {
-    font-size: 100px;  
-}
-
-.bannerphoto__txt_subtxt {
-    font-size: 60px;
-}
-
-
 .content {
     max-width: 1200px;
     margin: 80px auto;
@@ -119,6 +97,17 @@ hr {
     font-size: 18px;
     background-color: rgb(221,160,53);
 }
+
+footer {
+    color:white;
+    background-color: rgb(39,95,142);
+    padding: 20px ;
+    display: flex;
+    justify-content:center;
+    border-top: rgb(219,129,56) 8px solid;
+}
+
+/* -------- end of universal layout, start of About content --------- */
 
 .about {
     font-size: 50px;
@@ -141,20 +130,12 @@ hr {
 }
 
 
-footer {
-    color:white;
-    background-color: rgb(39,95,142);
-    padding: 20px ;
-    display: flex;
-    justify-content:center;
-    border-top: rgb(219,129,56) 8px solid;
-}
 
 
 /********** End about content *********/
 
 /********** Start cast content *********/
-
+/*
 .castbanner {
     background: url(/image/castbanner.png) no-repeat center;
     width: 100%;
@@ -265,7 +246,7 @@ footer {
         transform: translateX(3px);
     }
 }
-
+*/
 /******** end cast page content *********/
 
 
@@ -470,11 +451,7 @@ footer {
 }
 
 .header__logo_title {
-    font-size: 46px;
-}
-
-.header__logo_subtitle {
-    font-size: 28px;   
+    font-size: 54px;
 }
 
 .header__nav {
@@ -505,28 +482,6 @@ footer {
     background-color: black;
     position:relative;
     background-position: 0px -30px;
-}
-
-.bannerphoto__txt {
-    color:rgb(253, 253, 170);
-    line-height: 10px;
-    text-align: center;
-}
-
-.bannerphoto__txt_maintxt {
-    font-size: 50px; 
-}
-
-.bannerphoto__txt_subtxt {
-    font-size: 30px;
-}
-
-.bannerphoto__txt {
-    position: absolute;
-    top: 80px;
-    right: 40px;
-    line-height: 0px;
-    color:rgb(241,217,122);
 }
 
 .content-buttons {
@@ -628,11 +583,7 @@ footer {
 }
     
 .header__logo_title {
-    font-size: 34px;
-}
-    
-.header__logo_subtitle {
-    font-size: 20px;
+    font-size: 30px;
 }
     
 .header__nav {
@@ -659,20 +610,6 @@ footer {
     background-color: black;
     position:relative;
     background-position: 0px -30px;
-}
-    
-.bannerphoto__txt {
-    color:rgb(253, 253, 170);
-    position:absolute;
-    top: 190px;
-}
-    
-.bannerphoto__txt_maintxt {
-    font-size: 45px; 
-}
-    
-.bannerphoto__txt_subtxt {
-    font-size: 25px;
 }
     
 .content-buttons {
@@ -762,6 +699,8 @@ footer {
 
 
 /******* start cast page media for iPad*******/
+
+/*
 @media screen and  (min-width: 780px) and (max-width:1370px){
 
     .header {
@@ -856,10 +795,12 @@ footer {
     
 /******* end cast page media for iPad*******/
 }
+*/
 
 
 
 /******* start cast page media for iPhone*******/
+/*
 @media screen and  (max-width: 767px) {
 
     .header {
@@ -925,7 +866,7 @@ footer {
     .cast-about {
         text-align: center;
     }
-
+*/
 /******* end cast page media for iPhone*******/
 
 
