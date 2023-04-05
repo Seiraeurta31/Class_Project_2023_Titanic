@@ -44,6 +44,7 @@ body {
 .header__nav a { 
     text-decoration: none;
     padding-bottom: 10px;
+    margin: 0 15px;
 }
 
 .header__nav a:link{
@@ -610,7 +611,7 @@ footer {
 
 /* responsive screen for phones */
 
-@media screen and  (max-width: 767px) {
+@media screen and  (max-width: 780px) {
 
 
 /******** Start about iphone *********/  
@@ -635,7 +636,7 @@ footer {
     
 .header__nav {
     overflow: hidden;
-    font-size: 18px;
+    font-size: 20px;
     display: contents;
     text-align: center;
 }
@@ -881,7 +882,7 @@ footer {
         
     .header__nav {
         overflow: hidden;
-        font-size: 13px;
+        font-size: 20px;
         display: contents;
         text-align: center;
     }
