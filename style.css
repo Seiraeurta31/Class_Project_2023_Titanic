@@ -699,7 +699,6 @@ footer {
 
 
 /******* start cast page media for iPad*******/
-
 /*
 @media screen and  (min-width: 780px) and (max-width:1370px){
 
@@ -792,15 +791,14 @@ footer {
     .cast-about {
         text-align: center;
     }
-    
+}    
 /******* end cast page media for iPad*******/
-}
-*/
+
 
 
 
 /******* start cast page media for iPhone*******/
-/*
+
 @media screen and  (max-width: 767px) {
 
     .header {
@@ -884,11 +882,3 @@ footer {
         display: inline-block;
         margin-right: 20px;
     }
-
-*/
-
-}  
-  
-  
-  
-
