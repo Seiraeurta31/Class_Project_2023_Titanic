@@ -452,7 +452,7 @@ footer {
 
 /* responsive screen for iPads */
 
-@media screen and  (min-width: 768px) and (max-width:1370px){
+@media screen and  (min-width: 780px) and (max-width:1370px){
 
 /******** Start about ipad *********/
 
@@ -759,7 +759,7 @@ footer {
 
 
 /******* start cast page media for iPad*******/
-@media screen and  (min-width: 768px) and (max-width:1370px){
+@media screen and  (min-width: 780px) and (max-width:1370px){
 
     .header {
         min-height: 150px;   
@@ -770,6 +770,7 @@ footer {
         position: absolute;
         top: 0;
         text-align: center;
+
     }
     
     .header__logo_title {
