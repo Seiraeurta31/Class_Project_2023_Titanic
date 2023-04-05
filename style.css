@@ -57,11 +57,6 @@ body {
     color:rgb(241,217,122);
 }
 
-hr { 
-    width: 100%;
-    color: black;
-}
-
 .bannerphoto {
     background: url(/image/titanic.jpg) no-repeat center; 
     width: 100%;
@@ -129,10 +124,8 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 /********** End about content *********/
+
 
 /********** Start cast content *********/
 
@@ -167,22 +160,26 @@ footer {
 .castbanner__txt_subtxt {
     font-size: 40px;
 }
+
 .cast-about {
     font-size: 40px;
     margin-top: -20px;
     padding-left: 10px;
     color:rgb(11, 59, 101)
 }
+
 .cast-title {
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
 .cast-text {
     font-size: 20px;
     text-align: center;
     color: black;
     margin-top: 30px;
 }
+
 .grid-container {
     display: grid;
     grid-template-areas: main;
@@ -196,6 +193,7 @@ footer {
     justify-items: center;
     justify-content: center;
 }
+
 .cast-people {
     background-color:rgb(241,217,122);
     max-width: 275px;
@@ -212,13 +210,16 @@ footer {
     margin: 0 auto;
     padding: 20px;
 }
+
 .nav {
     margin: 0;
     padding: 0;
 }
+
 .cast-member {
     margin-bottom: 40px;
 }
+
 .awards__button {
     display: flex;
     justify-content: end;
@@ -233,6 +234,7 @@ footer {
     margin-bottom: 20px;
     padding: 5px;
 }
+
 .awards__button:hover {
     color: rgb(246, 240, 238);
     background-color: rgb(23, 62, 141);
@@ -251,6 +253,11 @@ footer {
 
 
 /******** Start theme content *********/
+
+hr { 
+    width: 100%;
+    color: black;
+}
 
 .themes__image {
     display: flex;
@@ -764,6 +771,7 @@ footer {
     .bannerphoto__txt_subtxt {
         font-size: 30px;
     }
+
     .grid-container {
         display: grid;
         grid-template-areas: main;
@@ -776,6 +784,7 @@ footer {
         justify-content: center;
         padding: 20px;
     }
+
     .body {
         max-width: 1200px;
         padding: 0 50px 0 0;
@@ -787,13 +796,12 @@ footer {
         width: 350px;
         height: 300px;
     }
+
     .cast-about {
         text-align: center;
     }
 }    
 /******* end cast page media for iPad*******/
-
-
 
 
 /******* start cast page media for iPhone*******/
@@ -855,7 +863,6 @@ footer {
         font-size: 35px; 
     }
         
-       
     .bannerphoto__txt_subtxt {
         font-size: 20px;
     }
@@ -863,9 +870,8 @@ footer {
     .cast-about {
         text-align: center;
     }
-*/
+}
 /******* end cast page media for iPhone*******/
-
 
 /*
    (JENNY TO DELETE AS NEEDED)
