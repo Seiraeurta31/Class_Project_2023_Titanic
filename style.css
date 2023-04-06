@@ -483,7 +483,7 @@ hr {
 /******** Start about ipad *********/
 
 .header {
-    min-height: 150px;   
+    min-height: 170px;   
 }
 
 .header__logo {
@@ -687,7 +687,7 @@ hr {
 
 /******** Start about iphone *********/  
 .header {
-    min-height: 150px;   
+    min-height: 110px;   
 }
     
 .header__logo {
