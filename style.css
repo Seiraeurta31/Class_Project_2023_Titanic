@@ -104,13 +104,22 @@ footer {
     background-color: rgb(221,160,53); 
     box-shadow: 0 7px black;
     cursor: pointer;
-}
-
-.content-buttons__link:hover {
     color: white;
 }
 
-.content-buttons__link:active {
+.content-buttons__link a:link {
+    color: white;
+}
+
+.content-buttons__link a:hover {
+    color: white;
+}
+
+.content-buttons__link a:visited {
+    color: white;
+}
+
+.content-buttons__link a:active {
     box-shadow: 0 2px grey;
     transform: translateY(2px);
 }
