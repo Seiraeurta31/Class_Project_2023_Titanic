@@ -149,55 +149,46 @@ footer {
 
 /********** Start cast content *********/
 
-.castbanner {
-    background: url(/image/castbanner.png) no-repeat center;
-    width: 100%;
-    height: 450px;
+.cast .bannerphoto {
+    background: url(./image/castbfinal.png) no-repeat center;
     background-size: cover;
     background-color: black;
     position:relative;
-    padding-top: 20px;
-    border-top: rgb(219,129,56) 8px solid;
     background-position: 0px -100px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.castbanner__txt {
-    position: absolute;
-    top: 30px;
-    right: 60px;
-    line-height: 0px;
-    color:rgb(241,217,122);
-}
-
-.castbanner__txt_maintxt {
-    font-size: 80px;
-}
-
-.castbanner__txt_subtxt {
-    font-size: 40px;
 }
 
 .cast-about {
     font-size: 40px;
     margin-top: -20px;
     padding-left: 10px;
-    color:rgb(11, 59, 101)
+    color:rgb(0, 2, 4);
+    
+}
+.cast-content {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
 }
 
 .cast-title {
-    margin-left: 20px;
     margin-bottom: 20px;
+    padding-left: 60px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    text-align: left;
 }
 
 .cast-text {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     color: black;
     margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: end;
 }
 
 .grid-container {
@@ -215,14 +206,14 @@ footer {
 }
 
 .cast-people {
-    background-color:rgb(241,217,122);
+    background-color:rgb(238, 231, 195);
     max-width: 275px;
     max-height: 275px;
     text-align: center;
-    border: solid 8px;
-    border-color: rgb(23, 62, 141);
-    padding-bottom: 2px;
-    padding-top: 2px;
+    border: solid 5px;
+    border-color: rgb(215, 129, 43);
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .main {
@@ -244,14 +235,14 @@ footer {
     display: flex;
     justify-content: end;
     max-width: 2700px;
-    background-color: blanchedalmond;
+    background-color: rgb(237, 173, 108);
     font-size: 18px;
     font-family: serif;
     margin: auto;
     margin-top: 25px;
     border: solid black 1px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 5px;
 }
 
@@ -482,80 +473,120 @@ hr {
 
 /******************************************* START responsive ipad **************************************/
 
-/* responsive screen for iPads */
 
 @media screen and  (min-width: 600px) and (max-width:1370px){
 
-/******** Start about ipad *********/
+    /******** Start about ipad *********/
+    
+    .header {
+        min-height: 150px;   
+    }
+    
+    .header__logo {
+        color: white;
+        position: absolute;
+        top: 0;
+        text-align: center;
+    }
+    
+    .header__logo_title {
+        font-size: 54px;
+    }
+    
+    .header__nav {
+        overflow: hidden;
+        display:contents;
+        text-align:center;
+        font-size: 28px;   
+    }
+    
+    .header__nav a {
+        text-decoration: none;
+    }
+    
+    .header__nav a:hover {
+        background-color: antiquewhite;
+        color: black;
+    }
+    
+    .header__nav a:active {
+        background-color: darkgoldenrod;
+        color:white
+    }
+    
+    .bannerphoto{
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-color: black;
+        position:relative;
+        background-position: 0px -30px;
+    }
+    
+    .content-buttons {
+        display:flex;
+        grid-gap: 15px;
+        float: right;
+        margin-top: -40px;
+    }
+    
+    .about {
+        font-size: 40px;
+        margin-top: -20px;
+        padding-left: 10px;
+    }
+    
+    .about__text {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .about__image {
+        padding: 0 5px 0px 5px;
+        width: 250px;
+        height: 366px;
+        margin-top: 10px;
+        float: right;
+    }
+    
+/******** End about ipad *********/
+    
+/******* start cast page media for iPad*******/
 
-.header {
-    min-height: 170px;   
+.grid-container {
+    display: grid;
+    grid-template-areas: main;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    row-gap: 50px;
+    column-gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+.body {
+    max-width: 1200px;
+    padding: 0 50px 0 0;
 }
 
-.header__logo {
-    color: white;
-    position: absolute;
-    top: 0;
+
+.cast-people {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+.cast-about {
     text-align: center;
 }
-
-.header__logo_title {
-    font-size: 54px;
+.cast-title {
+    text-align: center;
+    padding-right: 60px;
 }
 
-.header__nav {
-    overflow: hidden;
-    display:contents;
-    text-align:center;
-    font-size: 28px;   
-}
+/******* end cast page media for iPad*******/
 
-.header__nav a {
-    text-decoration: none;
-}
-
-.header__nav a:active {
-    background-color: darkgoldenrod;
-    color:white
-}
-
-.bannerphoto{
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-    background-color: black;
-    position:relative;
-    background-position: 0px -30px;
-}
-
-.content-buttons {
-    display:flex;
-    grid-gap: 15px;
-    float: right;
-    margin-top: -40px;
-}
-
-.about {
-    font-size: 40px;
-    margin-top: -20px;
-    padding-left: 10px;
-}
-
-.about__text {
-    padding: 10px 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.about__image {
-    padding: 0 5px 0px 5px;
-    width: 250px;
-    height: 366px;
-    margin-top: 10px;
-    float: right;
-}
-
-/******** End about ipad *********/
 
 /******** Start spfx ipad*********/
 
@@ -597,6 +628,7 @@ hr {
 }
 
 /******** End spfx ipad *********/
+
 
 /******** start themes ipad ***********/
 
@@ -687,6 +719,11 @@ hr {
 
 
 
+
+
+
+
+
 /******************************************* START responsive iphone **************************************/
 
 
@@ -696,17 +733,18 @@ hr {
 
 
 /******** Start about iphone *********/  
+
 .header {
-    min-height: 110px;   
+    min-height: 150px;
 }
-    
+
 .header__logo {
     color: white;
     position: absolute;
     top: 0;
     text-align: center;
 }
-    
+
 .header__logo_title {
     font-size: 30px;
 }
@@ -750,12 +788,35 @@ hr {
     padding: 0 5px 0px 5px;
     width: 160px;
     height: 234px;
-}  
+}   
 
 .about__text {
     font-size: 15px;
 }
+
 /******** End about iphone *********/ 
+
+
+
+
+/******* start cast page media for iPhone*******/
+
+.cast-about {
+        text-align: center;
+    }
+.cast-content {
+    max-width: 1300px;
+}
+.cast .bannerphoto {
+    background-size: cover;
+    position: relative;
+    background-position: 0px -20px;
+}
+.cast-title {
+    text-align: center;
+    padding-right: 60px;
+}
+/******* end cast page media for iPhone*******/
 
 /******** Start spfx iphone *********/
 
@@ -901,7 +962,6 @@ hr {
     display: flex;
     justify-content: center;
     margin: 25px 25px 25px 35px;
-
 }
 /************** end themes iphone ***********************/
 
@@ -911,202 +971,3 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/******* start cast page media for iPad*******/
-/*
-@media screen and  (min-width: 780px) and (max-width:1370px){
-
-    .header {
-        min-height: 150px;   
-    }
-    
-    .header__logo {
-        color: white;
-        position: absolute;
-        top: 0;
-        text-align: center;
-
-    }
-    
-    .header__logo_title {
-        font-size: 46px;
-    }
-    
-    .header__logo_subtitle {
-        font-size: 28px;   
-    }
-    
-    .header__nav {
-        overflow: hidden;
-        display:contents;
-        text-align:center;
-        font-size: 28px;   
-    }
-    
-    .header__nav a {
-        text-decoration: none;
-    }
-    
-    .header__nav a:hover {
-        background-color: antiquewhite;
-        color: black;
-    }
-    
-    .header__nav a:active {
-        background-color: darkgoldenrod;
-        color:white
-    }
-    
-    .bannerphoto {
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-        background-color: black;
-        position:relative;
-        background-position: 0px -30px;
-    }
-    
-    .bannerphoto__txt {
-        color:rgb(253, 253, 170);
-        line-height: 10px;
-        text-align: center;
-    }
-    
-    .bannerphoto__txt_maintxt {
-        font-size: 40px; 
-    }
-    
-    .bannerphoto__txt_subtxt {
-        font-size: 30px;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-areas: main;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
-        row-gap: 50px;
-        column-gap: 10px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        justify-content: center;
-        padding: 20px;
-    }
-
-    .body {
-        max-width: 1200px;
-        padding: 0 50px 0 0;
-    }
-    
-    
-    .cast-people {
-        position: relative;
-        width: 350px;
-        height: 300px;
-    }
-
-    .cast-about {
-        text-align: center;
-    }
-}    
-/******* end cast page media for iPad*******/
-
-
-/******* start cast page media for iPhone*******/
-/*
-@media screen and  (max-width: 767px) {
-
-    .header {
-        min-height: 150px;   
-    }
-        
-    .header__logo {
-        color: white;
-        position: absolute;
-        top: 0;
-        text-align: center;
-    }
-        
-    .header__logo_title {
-        font-size: 34px;
-    }
-        
-    .header__logo_subtitle {
-        font-size: 20px;
-    }
-        
-    .header__nav {
-        overflow: hidden;
-        font-size: 18px;
-        display: contents;
-        text-align: center;
-    }
-        
-    .header__nav a:hover {
-        background-color: antiquewhite;
-        color: black;
-    }
-        
-    .header__nav a:active {
-        background-color: darkgoldenrod;
-        color:white
-    }
-        
-    .bannerphoto {
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-        background-color: black;
-        position:relative;
-        background-position: 0px -30px;
-    }
-        
-    .bannerphoto__txt {
-        color:rgb(253, 253, 170);
-        position:absolute;
-        top: 170px;
-    }
-        
-    .bannerphoto__txt_maintxt {
-        font-size: 35px; 
-    }
-        
-    .bannerphoto__txt_subtxt {
-        font-size: 20px;
-    }
-    
-    .cast-about {
-        text-align: center;
-    }
-}
-
-/******* end cast page media for iPhone*******/
-/*
-   (JENNY TO DELETE AS NEEDED)
-    .header__title {
-        margin: 0;
-    }
-    
-    .nav__list {
-        list-style: none;
-    }
-    
-    .nav__item {
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-    */
