@@ -57,11 +57,6 @@ body {
     color:rgb(241,217,122);
 }
 
-hr { 
-    width: 100%;
-    color: black;
-}
-
 .bannerphoto {
     background: url(/image/titanic.jpg) no-repeat center; 
     width: 100%;
@@ -129,10 +124,8 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
 /********** End about content *********/
+
 
 /********** Start cast content *********/
 
@@ -167,22 +160,26 @@ footer {
 .castbanner__txt_subtxt {
     font-size: 40px;
 }
+
 .cast-about {
     font-size: 40px;
     margin-top: -20px;
     padding-left: 10px;
     color:rgb(11, 59, 101)
 }
+
 .cast-title {
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
 .cast-text {
     font-size: 20px;
     text-align: center;
     color: black;
     margin-top: 30px;
 }
+
 .grid-container {
     display: grid;
     grid-template-areas: main;
@@ -196,6 +193,7 @@ footer {
     justify-items: center;
     justify-content: center;
 }
+
 .cast-people {
     background-color:rgb(241,217,122);
     max-width: 275px;
@@ -212,13 +210,16 @@ footer {
     margin: 0 auto;
     padding: 20px;
 }
+
 .nav {
     margin: 0;
     padding: 0;
 }
+
 .cast-member {
     margin-bottom: 40px;
 }
+
 .awards__button {
     display: flex;
     justify-content: end;
@@ -233,6 +234,7 @@ footer {
     margin-bottom: 20px;
     padding: 5px;
 }
+
 .awards__button:hover {
     color: rgb(246, 240, 238);
     background-color: rgb(23, 62, 141);
@@ -251,6 +253,11 @@ footer {
 
 
 /******** Start theme content *********/
+
+hr { 
+    width: 100%;
+    color: black;
+}
 
 .themes__image {
     display: flex;
@@ -334,7 +341,22 @@ footer {
 }
 
 .themes .bannerphoto {
-    background: url(/themesimage/onset.jpg);
+    background: url(/themesimage/jackandrose.png) no-repeat center;
+    background-size: cover;
+    background-position: 0px -75px;
+}
+
+.themes__about {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    margin-top: -20px;
+}
+
+.themes__text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /******** End theme content *********/
@@ -555,6 +577,85 @@ footer {
 
 /******** End spfx ipad *********/
 
+/******** start themes ipad ***********/
+
+.themes .bannerphoto {
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.themes__text {
+    display: flex;
+    justify-content: center;
+    padding: 0px 45px 0px 45px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+.themes__fact {
+    max-width: fit-content;
+    margin: 10px 0px 20px 0px;
+}
+
+.themes__image {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image1 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image2 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image3 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 55px 10px 30px;
+}
+
+.themes__image4 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 75px 10px 15px;
+    }
+
+.themes__image5 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 45px 10px 30px;
+    }
+
+.themes__about {
+    display: flex;
+    justify-content: center;
+    }
+
+.themes__quotes {
+    justify-content: center;
+    margin-right: 75px;
+}
+
+.themes__fact {
+    margin: 25px 75px 25px 55px;
+}
+
+/*****End of themes ipad ********/
+
 }
 
 /*******************************************  END responsive ipad **************************************/
@@ -587,7 +688,7 @@ footer {
     
 .header__nav {
     overflow: hidden;
-    font-size: 18px;
+    font-size: 15px;
     display: contents;
     text-align: center;
 }
@@ -677,6 +778,95 @@ footer {
 
 /******** End spfx iphone *********/
 
+/******** start themes iphone *********/
+
+.themes .header__logo_title {
+    font-size: 25px;
+}
+
+.themes .bannerphoto {
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.themes__text {
+    display: flex;
+    justify-content: center;
+    padding: 0px 45px 0px 45px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+.themes__fact {
+    max-width: fit-content;
+    margin: 10px 0px 20px 0px;
+}
+
+.themes__image {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 35px;
+}
+
+.themes__image1 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__image2 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__image3 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__image4 {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: 25px 35px 25px 10px;
+}
+
+.themes__image5 {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 25px 45px 25px 25px;
+}
+
+.themes__about {
+    display: flex;
+    justify-content: center;
+ }
+
+.themes__quotes {
+    justify-content: center;
+    margin-right: 75px;
+}
+
+.themes__fact {
+    margin: 25px 75px 25px 55px;
+}
+
+.themes__subhead {
+    display: flex;
+    justify-content: center;
+    margin: 25px 55px 25px 50px;
+
+}
+/************** end themes iphone ***********************/
+
 }
 
 /*******************************************  END responsive iphone **************************************/
@@ -764,6 +954,7 @@ footer {
     .bannerphoto__txt_subtxt {
         font-size: 30px;
     }
+
     .grid-container {
         display: grid;
         grid-template-areas: main;
@@ -776,6 +967,7 @@ footer {
         justify-content: center;
         padding: 20px;
     }
+
     .body {
         max-width: 1200px;
         padding: 0 50px 0 0;
@@ -787,13 +979,12 @@ footer {
         width: 350px;
         height: 300px;
     }
+
     .cast-about {
         text-align: center;
     }
 }    
 /******* end cast page media for iPad*******/
-
-
 
 
 /******* start cast page media for iPhone*******/
@@ -855,7 +1046,6 @@ footer {
         font-size: 35px; 
     }
         
-       
     .bannerphoto__txt_subtxt {
         font-size: 20px;
     }
@@ -863,10 +1053,9 @@ footer {
     .cast-about {
         text-align: center;
     }
-*/
+}
+
 /******* end cast page media for iPhone*******/
-
-
 /*
    (JENNY TO DELETE AS NEEDED)
     .header__title {
