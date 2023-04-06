@@ -508,11 +508,6 @@ hr {
     text-decoration: none;
 }
 
-.header__nav a:hover {
-    background-color: antiquewhite;
-    color: black;
-}
-
 .header__nav a:active {
     background-color: darkgoldenrod;
     color:white
@@ -711,11 +706,6 @@ hr {
     font-size: 14px;
     display: contents;
     text-align: center;
-}
-    
-.header__nav a:hover {
-    background-color: antiquewhite;
-    color: black;
 }
     
 .header__nav a:active {
