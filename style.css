@@ -741,6 +741,10 @@ hr {
     width: 160px;
     height: 234px;
 }  
+
+.about__text {
+    font-size: 15px;
+}
 /******** End about iphone *********/ 
 
 /******** Start spfx iphone *********/
