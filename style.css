@@ -388,7 +388,13 @@ hr {
     font-weight:lighter;
     margin-top: 20px;
     padding-left: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+.spfx__page_description {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
 }
 
 .spfx_main__topic_container {
@@ -556,8 +562,8 @@ hr {
 
 .spfx_h1 {
     font-size: 50px;
-    margin-top: 20px;
-    text-align: center;
+    margin: 20px;
+    text-align: left;
 }
 
 .spfx_main__topic_container {
@@ -753,8 +759,8 @@ hr {
 
 .spfx_h1 {
     font-size: 50px;
-    margin-top: 10px;
-    text-align: center;
+    margin: 2px 40px;
+    text-justify: center;
 }
 
 
