@@ -454,7 +454,7 @@ hr {
 }
 
 .spfx_page .bannerphoto {
-    background: url(/image/spfx-banner-titanic.jpg) no-repeat center;
+    background: url(./image/spfx-banner-titanic.jpg) no-repeat center;
 }
 
 /******** end spfx content *********/
