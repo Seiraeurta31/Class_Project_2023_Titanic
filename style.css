@@ -341,7 +341,7 @@ hr {
 }
 
 .themes .bannerphoto {
-    background: url(/themesimage/jackandrose.png) no-repeat center;
+    background: url(./themesimage/jackandrose.png) no-repeat center;
     background-size: cover;
     background-position: 0px -75px;
 }
