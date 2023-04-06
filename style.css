@@ -601,6 +601,10 @@ hr {
     background-size: cover;
 }
 
+.themes__mobile-size {
+    width: 600px;
+}
+
 .themes__text {
     display: flex;
     justify-content: center;
@@ -619,42 +623,42 @@ hr {
     display: flex;
     justify-content: center;
     width: 500px;
-    margin: 10px 55px 10px 30px;
+    padding: 25px 75px 25px 130px;
 }
 
 .themes__image1 {
     display: flex;
     justify-content: center;
     width: 500px;
-    margin: 10px 55px 10px 30px;
+    margin: 25px 75px 25px 140px;
 }
 
 .themes__image2 {
     display: flex;
     justify-content: center;
     width: 500px;
-    margin: 10px 55px 10px 30px;
+    margin: 10px 75px 10px 120px;
 }
 
 .themes__image3 {
     display: flex;
     justify-content: center;
     width: 500px;
-    margin: 10px 55px 10px 30px;
+    margin: 25px 75px 25px 140px;
 }
 
 .themes__image4 {
     display: flex;
     justify-content: center;
     width: 500px;
-    margin: 10px 75px 10px 15px;
+    margin: 10px 75px 10px 120px;
     }
 
 .themes__image5 {
     display: flex;
     justify-content: center;
     width: 500px;
-    margin: 10px 45px 10px 30px;
+    margin: 25px 75px 25px 140px;
     }
 
 .themes__about {
@@ -797,21 +801,27 @@ hr {
 
 /******** start themes iphone *********/
 
+hr {
+    width: 60%;
+}
+
 .themes .header__logo_title {
     font-size: 25px;
 }
 
 .themes .bannerphoto {
-    background-position: 0px 0px;
+    display: flex;
+    justify-content: center;
+    background-position: -90px -20px;
     background-size: cover;
 }
 
 .themes__text {
     display: flex;
     justify-content: center;
-    padding: 0px 45px 0px 45px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    padding: 0px 40px 0px 40px;
+    margin: 20px 40px 20px 40px;
+    font-size: 12px;
     max-width: fit-content;
 }
 
@@ -820,46 +830,51 @@ hr {
     margin: 10px 0px 20px 0px;
 }
 
+.themes__mobile-size {
+    width: 300px
+}
+
 .themes__image {
     display: flex;
     justify-content: center;
-    width: 300px;
-    margin: 35px;
+    width: 90%;
+    padding: 20px 45px;
 }
 
 .themes__image1 {
     display: flex;
     justify-content: center;
-    width: 300px;
-    margin: 25px 45px 25px 25px;
+    width: 250px;
+    margin-left: 25px;
+    padding: 2px 2px 2px 35px;
 }
 
 .themes__image2 {
     display: flex;
     justify-content: center;
-    width: 300px;
-    margin: 25px 45px 25px 25px;
+    width: 200px;
+    padding: 20px 50px 20px 75px;
 }
 
 .themes__image3 {
     display: flex;
     justify-content: center;
-    width: 300px;
-    margin: 25px 45px 25px 25px;
+    width: 250px;
+    margin: 0px 50px 0px 55px;
 }
 
 .themes__image4 {
     display: flex;
-    width: 300px;
+    width: 200px;
     justify-content: center;
-    margin: 25px 35px 25px 10px;
+    padding: 20px 50px 20px 75px;
 }
 
 .themes__image5 {
     display: flex;
     justify-content: center;
-    width: 300px;
-    margin: 25px 45px 25px 25px;
+    width: 250px;
+    margin: 0px 50px 0px 55px;
 }
 
 .themes__about {
@@ -869,17 +884,20 @@ hr {
 
 .themes__quotes {
     justify-content: center;
-    margin-right: 75px;
+    margin-right: 50px;
+    font-size: 12px;
 }
 
 .themes__fact {
-    margin: 25px 75px 25px 55px;
+    margin: 25px 50px 25px 60px;
+    font-size: 12px;
+    padding: 24px;
 }
 
 .themes__subhead {
     display: flex;
     justify-content: center;
-    margin: 25px 55px 25px 50px;
+    margin: 25px 25px 25px 35px;
 
 }
 /************** end themes iphone ***********************/
