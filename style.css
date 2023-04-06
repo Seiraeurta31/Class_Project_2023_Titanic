@@ -30,11 +30,6 @@ body {
     color: white;   
 }
 
-.header__logo_subtitle {
-    font-size: 30px;
-    color: white;   
-}
-
 .header__nav {
     padding-bottom: 20px;
     font-size: 30px; 
@@ -43,10 +38,13 @@ body {
 
 .header__nav a { 
     text-decoration: none;
+    padding-bottom: 10px;
+    margin: 0 15px;
+
 }
 
-.header__nav a:link{
-    color: white
+.header__nav a:link {
+    color:white;
 }
 
 .header__nav a:hover{
@@ -59,13 +57,8 @@ body {
     color:rgb(241,217,122);
 }
 
-hr { 
-    width: 100%;
-    color: black;
-}
-
 .bannerphoto {
-    background: url(/image/titanic.jpg) no-repeat center; 
+    background: url(./image/titanic.jpg) no-repeat center; 
     width: 100%;
     height: 450px;
     background-size: cover;
@@ -79,29 +72,22 @@ hr {
     text-transform: uppercase;
 }
 
-
-.bannerphoto__txt {
-    position: absolute;
-    top: 100px;
-    right: 150px;
-    line-height: 0px;
-    color:rgb(241,217,122);
-}
-
-.bannerphoto__txt_maintxt {
-    font-size: 100px;  
-}
-
-.bannerphoto__txt_subtxt {
-    font-size: 60px;
-}
-
-
 .content {
     max-width: 1200px;
     margin: 80px auto;
     padding: 8px;
 }
+
+footer {
+    color:white;
+    background-color: rgb(39,95,142);
+    padding: 20px ;
+    display: flex;
+    justify-content:center;
+    border-top: rgb(219,129,56) 8px solid;
+}
+
+/* -------- end of universal layout, start of About content --------- */
 
 .content-buttons {
     display: flex;
@@ -114,8 +100,28 @@ hr {
     margin: 0px 0px 0px 20px;
     border-radius: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    background-color: rgb(221,160,53);
+    font-size: 16px;
+    background-color: rgb(221,160,53); 
+    box-shadow: 0 7px black;
+    cursor: pointer;
+    color: white;
+}
+
+.content-buttons__link a:link {
+    color: white;
+}
+
+.content-buttons__link a:hover {
+    color: white;
+}
+
+.content-buttons__link a:visited {
+    color: white;
+}
+
+.content-buttons__link a:active {
+    box-shadow: 0 2px grey;
+    transform: translateY(2px);
 }
 
 .about {
@@ -128,28 +134,18 @@ hr {
 
 .about__image {
     float: right;
-    padding: 50px 10px 0px 5px;
-    width: 200px;
-    height: 290px;
+    padding: 0px 10px 0px 10px;
+    width: 230px;
+    height: 337px;
 }
 
 .about__text {
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-footer {
-    color:white;
-    background-color: rgb(39,95,142);
-    padding: 20px ;
-    display: flex;
-    justify-content:center;
-    border-top: rgb(219,129,56) 8px solid;
-}
-
-
 /********** End about content *********/
+
 
 /********** Start cast content *********/
 
@@ -173,6 +169,7 @@ footer {
     margin: 80px auto;
     padding: 8px;
 }
+
 .cast-title {
     margin-bottom: 20px;
     padding-left: 60px;
@@ -182,6 +179,7 @@ footer {
     font-weight:lighter;
     text-align: left;
 }
+
 .cast-text {
     font-size: 20px;
     text-align: left;
@@ -192,6 +190,7 @@ footer {
     display: flex;
     justify-content: end;
 }
+
 .grid-container {
     display: grid;
     grid-template-areas: main;
@@ -205,15 +204,16 @@ footer {
     justify-items: center;
     justify-content: center;
 }
+
 .cast-people {
-        background-color:rgb(238, 231, 195);
-        max-width: 275px;
-        max-height: 275px;
-        text-align: center;
-        border: solid 5px;
-        border-color: rgb(215, 129, 43);
-        padding: 10px;
-        margin-bottom: 15px;
+    background-color:rgb(238, 231, 195);
+    max-width: 275px;
+    max-height: 275px;
+    text-align: center;
+    border: solid 5px;
+    border-color: rgb(215, 129, 43);
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .main {
@@ -221,13 +221,16 @@ footer {
     margin: 0 auto;
     padding: 20px;
 }
+
 .nav {
     margin: 0;
     padding: 0;
 }
+
 .cast-member {
     margin-bottom: 40px;
 }
+
 .awards__button {
     display: flex;
     justify-content: end;
@@ -242,6 +245,7 @@ footer {
     margin-bottom: 50px;
     padding: 5px;
 }
+
 .awards__button:hover {
     color: rgb(246, 240, 238);
     background-color: rgb(23, 62, 141);
@@ -260,6 +264,11 @@ footer {
 
 
 /******** Start theme content *********/
+
+hr { 
+    width: 100%;
+    color: black;
+}
 
 .themes__image {
     display: flex;
@@ -343,7 +352,22 @@ footer {
 }
 
 .themes .bannerphoto {
-    background: url(/themesimage/onset.jpg);
+    background: url(./themesimage/jackandrose.png) no-repeat center;
+    background-size: cover;
+    background-position: 0px -75px;
+}
+
+.themes__about {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    margin-top: -20px;
+}
+
+.themes__text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /******** End theme content *********/
@@ -364,7 +388,13 @@ footer {
     font-weight:lighter;
     margin-top: 20px;
     padding-left: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+.spfx__page_description {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
 }
 
 .spfx_main__topic_container {
@@ -372,7 +402,7 @@ footer {
     grid-template-columns: 600px 600px;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-areas: spfx_content;
-    row-gap: 60px;
+    row-gap: 40px;
     column-gap: 100px;
 }
 
@@ -412,7 +442,7 @@ footer {
     font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    color: rgb(141, 48, 8); 
+    color: rgb(5, 74, 149); 
 }
 
 .spfx_topic__learn_more_link {
@@ -425,22 +455,24 @@ footer {
 
 .spfx_topic__learn_more_link:hover {
     color: rgb(147, 37, 37);
+    font-size: 20px;
     text-decoration: underline;
 }
 
 .spfx_page .bannerphoto {
-    background: url(/image/spfx-banner-titanic.jpg) no-repeat center;
+    background: url(./image/spfx-banner-titanic.jpg) no-repeat center;
 }
 
 /******** end spfx content *********/
 
 
-/******************************************* END Page Code *****************************************/
+/******************************************* END Page Content *****************************************/
 
 
 
 
 /******************************************* START responsive ipad **************************************/
+
 
 @media screen and  (min-width: 600px) and (max-width:1370px){
 
@@ -518,40 +550,42 @@ footer {
         float: right;
     }
     
-    /******** End about ipad *********/
+/******** End about ipad *********/
+    
 /******* start cast page media for iPad*******/
-    .grid-container {
-        display: grid;
-        grid-template-areas: main;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
-        row-gap: 50px;
-        column-gap: 10px;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        justify-content: center;
-        padding: 20px;
-    }
-    .body {
-        max-width: 1200px;
-        padding: 0 50px 0 0;
-    }
-    
-    
-    .cast-people {
-        position: relative;
-        width: 350px;
-        height: 300px;
-    }
-    .cast-about {
-        text-align: center;
-    }
-    .cast-title {
-        text-align: center;
-        padding-right: 60px;
-    }
-/******* end cast page media for iPad*******/
+
+.grid-container {
+    display: grid;
+    grid-template-areas: main;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    row-gap: 50px;
+    column-gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    padding: 20px;
 }
+.body {
+    max-width: 1200px;
+    padding: 0 50px 0 0;
+}
+
+
+.cast-people {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+.cast-about {
+    text-align: center;
+}
+.cast-title {
+    text-align: center;
+    padding-right: 60px;
+}
+
+/******* end cast page media for iPad*******/
 
 
 /******** Start spfx ipad*********/
@@ -563,13 +597,14 @@ footer {
 
 .spfx_h1 {
     font-size: 50px;
-    margin-top: 20px;
-    text-align: center;
+    margin: 20px;
+    text-align: left;
 }
 
 .spfx_main__topic_container {
     grid-template-columns: 300px 300px;
-    column-gap: 100px;
+    grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 60px;
     row-gap: 70px;
     padding: 30 px;
     justify-content: center;
@@ -595,7 +630,95 @@ footer {
 /******** End spfx ipad *********/
 
 
+/******** start themes ipad ***********/
+
+.themes .bannerphoto {
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.themes__mobile-size {
+    width: 600px;
+}
+
+.themes__text {
+    display: flex;
+    justify-content: center;
+    padding: 0px 45px 0px 45px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+.themes__fact {
+    max-width: fit-content;
+    margin: 10px 0px 20px 0px;
+}
+
+.themes__image {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    padding: 25px 75px 25px 130px;
+}
+
+.themes__image1 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 25px 75px 25px 140px;
+}
+
+.themes__image2 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 75px 10px 120px;
+}
+
+.themes__image3 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 25px 75px 25px 140px;
+}
+
+.themes__image4 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px 75px 10px 120px;
+    }
+
+.themes__image5 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 25px 75px 25px 140px;
+    }
+
+.themes__about {
+    display: flex;
+    justify-content: center;
+    }
+
+.themes__quotes {
+    justify-content: center;
+    margin-right: 75px;
+}
+
+.themes__fact {
+    margin: 25px 75px 25px 55px;
+}
+
+/*****End of themes ipad ********/
+
+}
+
 /*******************************************  END responsive ipad **************************************/
+
+
+
 
 
 
@@ -610,15 +733,18 @@ footer {
 
 
 /******** Start about iphone *********/  
+
 .header {
     min-height: 150px;
 }
+
 .header__logo {
     color: white;
     position: absolute;
     top: 0;
     text-align: center;
 }
+
 .header__logo_title {
     font-size: 30px;
 }
@@ -628,11 +754,6 @@ footer {
     font-size: 14px;
     display: contents;
     text-align: center;
-}
-    
-.header__nav a:hover {
-    background-color: antiquewhite;
-    color: black;
 }
     
 .header__nav a:active {
@@ -667,9 +788,19 @@ footer {
     padding: 0 5px 0px 5px;
     width: 160px;
     height: 234px;
-}    
+}   
+
+.about__text {
+    font-size: 15px;
+}
+
 /******** End about iphone *********/ 
+
+
+
+
 /******* start cast page media for iPhone*******/
+
 .cast-about {
         text-align: center;
     }
@@ -690,57 +821,153 @@ footer {
 /******** Start spfx iphone *********/
 
 .spfx_content {
-    max-width: 1200px;
-    padding: 0 30px 0 0;
-
+    max-width: 1300px;
+    padding: 0 10px 0 0;
 }
 
 .spfx_h1 {
     font-size: 50px;
-    margin-top: 20px;
-    text-align: center;
+    margin: 2px 40px;
+    text-justify: center;
 }
 
 
 .spfx_main__topic_container {
-    grid-template-columns: 500px;
+    grid-template-columns: 300px;
+    row-gap: 20px;
     justify-content: center;
 }
 
 
 .spfx_topic {
     position: relative; 
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 425px;
 }
 
 .spfx_topic__img {
     float: left;
-    margin: 20px;
+    margin: 10px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     width: auto;
-    height: 300px;
+    height: 190px;
 }
 
 .spfx_topic__text_block {
     position: absolute;
-    top: 320px;
+    top: 200px;
     left: 20px;  
     max-width: 500px; 
 }
 
 /******** End spfx iphone *********/
 
+/******** start themes iphone *********/
+
+hr {
+    width: 60%;
+}
+
+.themes .header__logo_title {
+    font-size: 25px;
+}
+
+.themes .bannerphoto {
+    display: flex;
+    justify-content: center;
+    background-position: -90px -20px;
+    background-size: cover;
+}
+
+.themes__text {
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px 0px 40px;
+    margin: 20px 40px 20px 40px;
+    font-size: 12px;
+    max-width: fit-content;
+}
+
+.themes__fact {
+    max-width: fit-content;
+    margin: 10px 0px 20px 0px;
+}
+
+.themes__mobile-size {
+    width: 300px
+}
+
+.themes__image {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 20px 45px;
+}
+
+.themes__image1 {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin-left: 25px;
+    padding: 2px 2px 2px 35px;
+}
+
+.themes__image2 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 20px 50px 20px 75px;
+}
+
+.themes__image3 {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 0px 50px 0px 55px;
+}
+
+.themes__image4 {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    padding: 20px 50px 20px 75px;
+}
+
+.themes__image5 {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 0px 50px 0px 55px;
+}
+
+.themes__about {
+    display: flex;
+    justify-content: center;
+ }
+
+.themes__quotes {
+    justify-content: center;
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+.themes__fact {
+    margin: 25px 50px 25px 60px;
+    font-size: 12px;
+    padding: 24px;
+}
+
+.themes__subhead {
+    display: flex;
+    justify-content: center;
+    margin: 25px 25px 25px 35px;
+}
+/************** end themes iphone ***********************/
+
 }
 
 /*******************************************  END responsive iphone **************************************/
 
 
-
-
-
-  
-  
-  
 
