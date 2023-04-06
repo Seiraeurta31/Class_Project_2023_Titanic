@@ -43,8 +43,8 @@ body {
 
 }
 
-.header__nav a:link{
-    color: white
+.header__nav a:link {
+    color:white;
 }
 
 .header__nav a:hover{
