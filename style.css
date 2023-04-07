@@ -325,7 +325,7 @@ hr {
     width: 1000px;
     margin: 0px 50px 40px 50px;
     padding: 40px 40px 40px;
-    font-size: 20px; 
+    font-size: 15px; 
     font-family: Arial, Helvetica, sans-serif;
     border: 10px solid;
     border-color:rgb(241,217,122);;
@@ -337,7 +337,7 @@ hr {
     justify-items: center;
     margin: 50px 40px 40px 50px;
     padding: 40px 50px 40px;
-    font-size: 20px; 
+    font-size: 15px; 
     font-family: Arial, Helvetica, sans-serif;
     border: 10px solid;
     border-color: #061761;
@@ -366,7 +366,7 @@ hr {
 }
 
 .themes__text {
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
