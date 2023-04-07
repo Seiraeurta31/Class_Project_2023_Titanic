@@ -9,19 +9,6 @@
 
 When we had our first meeting to bring up the ideas for the layout, everyone else in the group had design background so they created theirs on Illustrator or Canva. I thought the mockup was to do a website mockup so I created a website instead. My original layout still had the title in the middle with the navigation at the bottom, follow by the content in certain width similar to our past assignments, and everyone in the group had very similar colors. What included in my original mockup was also the responsive screens CSS. We each picked something we like from the four wireframes and since I already had the starting code, the members and I decided that I would do the layout. So before Ashley created the repository for the group, I used my wireframe to create the final mockup just to avoid all the pull requests for the edits and I can use my time to make sure the website looks like the final mockup. Then, when Ashley created the repository, I moved the code that I did from the mockup to my branch - hence the similarity from my wireframe to the final mockup.
 
-## About Page Reference:
-
-Titanic | The Story Lives On | Stories for Kids. (n.d.). Www.youtube.com. Retrieved April 7, 2023, from https://www.youtube.com/watch?v=H_NryL40-lw
-
-Titanic Survivors • Titanic Facts. (2018, June 4). https://titanicfacts.net/titanic-survivors/?
-
-Wikipedia Contributors. (2018, November 25). Titanic (1997 film). Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Titanic_(1997_film)
-
-(2023a). Shopify.com. https://cdn.shopify.com/s/files/1/1416/8662/products/titanic_1997_original_film_art_713cc08c-5fe2-49d1-bd32-51a1d5890d43.jpg?v=1675533926
-
-(2023b). Nocookie.net. https://static.wikia.nocookie.net/jamescameronstitanic/images/8/86/I%27mflyingscene.jpg/revision/latest?cb=20110322225905
-‌
-
 ## Jenny's wireframe:
 ![picture alt](./image/Jenny%20Mockup.jpg "Jenny's wireframe")
 
@@ -36,6 +23,18 @@ Wikipedia Contributors. (2018, November 25). Titanic (1997 film). Wikipedia; Wik
 ## Quynh's Challenges:
 
 While creating the layout, I found that the main challenges was finding the optimal cut off for responsive screens and making sure the website is still looking consistent with the responsive screens. I also couldn't figure out why my code wasn't updating for a while, but then I realized I forgot to merge to the main. I think some of the other minor challenges for me were adjusting the banner cover photo to a specific coordinate so that the users can see the main focus of the banner, and making sure it remains the main focus of the photo even in various browsers and responsive screens. My other minor challenge was when I created the first version of the title with subtitle underneath for the layout, the display I had created a larger line gap than I wanted, so it took some time to move it around and play with the padding and the margin. Since we learned CSS grid around the time of the project, it made creating the layout (header, nav, body, footer) a lot easier than if I were to use flex box. I think the team was productive and effective in communication. We had multiple meetings to go through the issues and we helped each other out like true teammates. 
+
+## About Page Reference:
+
+Titanic | The Story Lives On | Stories for Kids. (n.d.). Www.youtube.com. Retrieved April 7, 2023, from https://www.youtube.com/watch?v=H_NryL40-lw
+
+Titanic Survivors • Titanic Facts. (2018, June 4). https://titanicfacts.net/titanic-survivors/?
+
+Wikipedia Contributors. (2018, November 25). Titanic (1997 film). Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Titanic_(1997_film)
+
+(2023a). Shopify.com. https://cdn.shopify.com/s/files/1/1416/8662/products/titanic_1997_original_film_art_713cc08c-5fe2-49d1-bd32-51a1d5890d43.jpg?v=1675533926
+
+(2023b). Nocookie.net. https://static.wikia.nocookie.net/jamescameronstitanic/images/8/86/I%27mflyingscene.jpg/revision/latest?cb=20110322225905
 
 
 ## Jordan's Challenges:
