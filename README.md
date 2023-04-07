@@ -1,19 +1,27 @@
+we are pleased to present this website based on the movie The Titanic. Our group communicated frequently throughout the process through zoom meetings, email, text, etc. to coordinate the develop this website. During our first meeting, we presented our wireframes (see wireframes below) to the group and then developed a final design for which we would base the website on (see final website mockup below). We replied on the specs of the mockup as a starting point to develop our own page to contribute to the website. Naturally through the process, some elements were altered, added, and/or removed through continuous collaboration and agreement. 
+
+The website is built for SEO and accessibility across all platforms and showcase a consistent theme throughout. The header navigation links feature transitions that provide feedback to where the user has been within the site using font color changes. Additionally, the buttons and text links mixed throughout the site feature animations and transitions as well to give the user an interactive experience. All information featured on this website is borrowed from external sources and the citations are provided along with the respective contributors’ challenges feedback below. 
+
+
+
 # Final Website Mockup:
 
 ![picture alt](./image/Mock-Up.jpg "Mock Up for Webpage")
 
 # Teammate Wireframe for Inspiration:
 
-## Quynh's wireframe:
+## Quynh's Wireframe:
 
-## Jenny's wireframe:
+## Jenny's Wireframe:
 ![picture alt](./image/Jenny%20Mockup.jpg "Jenny's wireframe")
 
-## Ashley's wireframe:
+## Ashley's Wireframe:
 ![picture alt](./image/Ashleys%20Wireframe.jpg "Ashley.s Wireframe")
 
-## Jordans wireframe:
+## Jordans Wireframe:
 ![picture alt](./image/Jordan%20Wireframe.jpg "Jordan's Wireframe")
+
+
 
 # Group Challenges 
 
