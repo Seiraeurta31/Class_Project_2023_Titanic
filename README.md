@@ -4,6 +4,7 @@ The website is built for SEO and accessibility across all platforms and showcase
 
 
 
+
 # Final Website Mockup:
 
 ![picture alt](./image/Mock-Up.jpg "Mock Up for Webpage")
