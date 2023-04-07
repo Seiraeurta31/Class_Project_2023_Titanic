@@ -7,12 +7,13 @@
 ## Quynh's wirefram:
 
 ## Jenny's wirefram:
+![picture alt](./image/Jenny%20Mockup.jpg "Mock Up for Webpage")
 
 ## Ashley's wirefram:
-![picture alt](./image/Ashley%20Wireframe.JPG.jpg "Mock Up for Webpage")
+![picture alt](./image/Ashley%20Wireframe.jpg "Mock Up for Webpage")
 
 ## Jordans wirefram:
-![picture alt](./image/Jordan%20Wireframe.jpg.jpg "Mock Up for Webpage")
+![picture alt](./image/Jordan%20Wireframe.jpg "Mock Up for Webpage")
 
 # Group Challenges 
 
