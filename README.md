@@ -1,8 +1,16 @@
+We are pleased to present this website based on the movie The Titanic. Our group communicated frequently throughout the process through zoom meetings, email, text, etc. to coordinate the develop this website. During our first meeting, we presented our wireframes (see wireframes below) to the group and then developed a final design for which we would base the website on (see final website mockup below). We replied on the specs of the mockup as a starting point to develop our own page to contribute to the website. Naturally through the process, some elements were altered, added, and/or removed through continuous collaboration and agreement. 
+
+The website is built for SEO and accessibility across all platforms and showcase a consistent theme throughout. The header navigation links feature transitions that provide feedback to where the user has been within the site using font color changes. Additionally, the buttons and text links mixed throughout the site feature animations and transitions as well to give the user an interactive experience. All information featured on this website is borrowed from external sources and the citations are provided along with the respective contributors’ challenges feedback below. 
+
+
+
+
 # Final Website Mockup:
 
 ![picture alt](./image/Mock-Up.jpg "Mock Up for Webpage")
 
 # Teammate Wireframe for Inspiration:
+
 
 ## Quynh's wireframe:
 ![picture alt](./image/quynhmockup.png "Quynh's wireframe")
@@ -12,11 +20,13 @@ When we had our first meeting to bring up the ideas for the layout, everyone els
 ## Jenny's wireframe:
 ![picture alt](./image/Jenny%20Mockup.jpg "Jenny's wireframe")
 
-## Ashley's wireframe:
-![picture alt](./image/Ashley%20Wireframe.jpg "Ashley.s Wireframe")
+## Ashley's Wireframe:
+![picture alt](./image/Ashleys%20Wireframe.jpg "Ashley.s Wireframe")
 
-## Jordans wireframe:
+## Jordans Wireframe:
 ![picture alt](./image/Jordan%20Wireframe.jpg "Jordan's Wireframe")
+
+
 
 # Group Challenges 
 
@@ -53,3 +63,10 @@ Oh, where to start! LOL. When we started this project and I learning we needed t
 With this said, when it comes to personal struggles, the first struggle I had was trying to understand git and how to merge code with conflicts. It was a bit overwhelming to try and decipher what was happening when a conflict emerged, but I figured it out through extra research, and it wasn't as bad as I had feared. I also ran into a little hurdle when learning about BEM. I did struggle a lot to wrap my brain around the PROPER syntax but again, it turned out to not be such a problem. Lastly, I did struggle with pulling down updates to my local branch. I wasn't understanding why files weren’t updating, or vice versa why my pull requests weren't showing up on git, causing me to track them down under collaborators, or commits. Not to mention, I struggled to trust my files were up to date, when there were times when they weren't even though it says they were. So, I am still working through this challenge, but I feel more experience going through the steps properly will build confidence in these areas. 
 
 As far as my commitment and participation to the project I was team lead for the group and managed the git repository, submitted a wireframe for design consideration, created a mock-up incorporating various elements from everyone’s wireframes and group feedback during initial planning, set the production schedule, set meetings, and the design of the special fx page. 
+
+## Jenny's Challenges:
+
+I feel that I've come a long way with understanding CSS and HTML through creating this project. Before starting the project, I was nervous to code "from scratch" using a created mockup, rather than relying on lecture videos and class mockups. In regard to my webpage (cast), I struggled with applying CSS grid at first because I was incorrectly inputting the dimensions of the grid. I also struggled with the conflicting changes across our CSS because at times, I would code over a line someone else was working on simultaneously, and it would display a conflict. I am working on this and trying to be very detail-oriented in the future. During the project, I would work in sessions over days at a time before pushing my commits. I think that if I pushed my code to GitHub more often, I would have had less of a struggle to understand which version is the most updated code. 
+
+I would consider my group to be very productive and communicative with one another. We let each other know as we were making changes, offered constructive criticism and helped one another when needed. I knew I could count on them, especially given that I was nervous that I would know the least about coding going into it. They really have helped me understand some concepts that I struggled with previously. We used a rough outline of my mockup to inspire our page layout, and I feel proud of our design choices and stylizing! I must recognize Ashley's work with dealing with the repo and merging conflicts, since that was a roadblock we encountered a few times while collaborating on our shared CSS. All in all, I think my teammates did a great job, and I enjoyed the challenge of creating this site.
+
