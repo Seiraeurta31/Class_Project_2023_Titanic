@@ -9,6 +9,8 @@ The website is built for SEO and accessibility across all platforms and showcase
 
 ![picture alt](./image/Mock-Up.jpg "Mock Up for Webpage")
 
+
+
 # Teammate Wireframe for Inspiration:
 
 
@@ -28,7 +30,7 @@ When we had our first meeting to bring up the ideas for the layout, everyone els
 ## Jordans Wireframe:
 ![picture alt](./image/Jordan%20Wireframe.jpg "Jordan's Wireframe")
 
-
+ 
 
 # Group Challenges 
 
@@ -66,6 +68,22 @@ Oh, where to start! LOL. When we started this project and I learning we needed t
 With this said, when it comes to personal struggles, the first struggle I had was trying to understand git and how to merge code with conflicts. It was a bit overwhelming to try and decipher what was happening when a conflict emerged, but I figured it out through extra research, and it wasn't as bad as I had feared. I also ran into a little hurdle when learning about BEM. I did struggle a lot to wrap my brain around the PROPER syntax but again, it turned out to not be such a problem. Lastly, I did struggle with pulling down updates to my local branch. I wasn't understanding why files weren’t updating, or vice versa why my pull requests weren't showing up on git, causing me to track them down under collaborators, or commits. Not to mention, I struggled to trust my files were up to date, when there were times when they weren't even though it says they were. So, I am still working through this challenge, but I feel more experience going through the steps properly will build confidence in these areas. 
 
 As far as my commitment and participation to the project I was team lead for the group and managed the git repository, submitted a wireframe for design consideration, created a mock-up incorporating various elements from everyone’s wireframes and group feedback during initial planning, set the production schedule, set meetings, and the design of the special fx page. 
+
+## SPFX Page Reference:
+
+Titanic (1997 film). (2023, April 6). Wikipedia. https://en.wikipedia.org/wiki/Titanic_(1997_film)#Production
+
+Ebert, R. (1997, December 7). Special effects live up to hype in “Titanic” | Roger Ebert | Roger Ebert. Https://Www.rogerebert.com/. https://www.rogerebert.com/roger-ebert/special-effects-live-up-to-hype-in-titanic
+
+Titanic stories - fxguide. (2012, April 4). Https://Www.fxguide.com/. https://www.fxguide.com/fxfeatured/titanic-stories/
+
+Deguzman, K. (2022, May 22). VIDEO: Titanic — How James Cameron Directed a Disaster. StudioBinder. https://www.studiobinder.com/blog/the-making-of-titanic-movie/
+
+Bachor, K. (n.d.). See Rare Behind-The-Scenes Photos From “Titanic.” BuzzFeed News. Retrieved April 7, 2023, from https://www.buzzfeednews.com/article/kennethbachor/titanic-behind-the-scenes-photos
+
+Cima, M. (2018, March 28). 17 Wild Behind-The-Scenes Secrets From Titanic. ScreenRant. https://screenrant.com/titanic-behind-scenes-trivia-facts/
+
+
 
 ## Jenny's Challenges:
 
