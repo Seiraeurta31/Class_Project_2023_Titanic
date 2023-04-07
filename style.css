@@ -460,7 +460,9 @@ hr {
 }
 
 .spfx_page .bannerphoto {
-    background: url(./image/spfx-banner-titanic.jpg) no-repeat center;
+    background: url(./image/SpecialFX\ Banner.webp) no-repeat center;
+    background-size: cover;
+    background-position: 0px -250px;
 }
 
 /******** end spfx content *********/
@@ -471,85 +473,88 @@ hr {
 
 
 
+
+
+
 /******************************************* START responsive ipad **************************************/
 
 
 @media screen and  (min-width: 600px) and (max-width:1370px){
 
-    /******** Start about ipad *********/
-    
-    .header {
-        min-height: 150px;   
-    }
-    
-    .header__logo {
-        color: white;
-        position: absolute;
-        top: 0;
-        text-align: center;
-    }
-    
-    .header__logo_title {
-        font-size: 54px;
-    }
-    
-    .header__nav {
-        overflow: hidden;
-        display:contents;
-        text-align:center;
-        font-size: 28px;   
-    }
-    
-    .header__nav a {
-        text-decoration: none;
-    }
-    
-    .header__nav a:hover {
-        background-color: antiquewhite;
-        color: black;
-    }
-    
-    .header__nav a:active {
-        background-color: darkgoldenrod;
-        color:white
-    }
-    
-    .bannerphoto{
-        width: 100%;
-        height: 250px;
-        background-size: cover;
-        background-color: black;
-        position:relative;
-        background-position: 0px -30px;
-    }
-    
-    .content-buttons {
-        display:flex;
-        grid-gap: 15px;
-        float: right;
-        margin-top: -40px;
-    }
-    
-    .about {
-        font-size: 40px;
-        margin-top: -20px;
-        padding-left: 10px;
-    }
-    
-    .about__text {
-        padding: 10px 10px;
-        margin-bottom: 10px;
-        font-size: 20px;
-    }
-    
-    .about__image {
-        padding: 0 5px 0px 5px;
-        width: 250px;
-        height: 366px;
-        margin-top: 10px;
-        float: right;
-    }
-    
+/******** Start about ipad *********/
+
+.header {
+    min-height: 150px;   
+}
+
+.header__logo {
+    color: white;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.header__logo_title {
+    font-size: 54px;
+}
+
+.header__nav {
+    overflow: hidden;
+    display:contents;
+    text-align:center;
+    font-size: 28px;   
+}
+
+.header__nav a {
+    text-decoration: none;
+}
+
+.header__nav a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.header__nav a:active {
+    background-color: darkgoldenrod;
+    color:white
+}
+
+.bannerphoto{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-color: black;
+    position:relative;
+    background-position: 0px -30px;
+}
+
+.content-buttons {
+    display:flex;
+    grid-gap: 15px;
+    float: right;
+    margin-top: -40px;
+}
+
+.about {
+    font-size: 40px;
+    margin-top: -20px;
+    padding-left: 10px;
+}
+
+.about__text {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.about__image {
+    padding: 0 5px 0px 5px;
+    width: 250px;
+    height: 366px;
+    margin-top: 10px;
+    float: right;
+}
+
 /******** End about ipad *********/
     
 /******* start cast page media for iPad*******/
@@ -625,6 +630,15 @@ hr {
 
 .spfx_topic___title, .spfx_topic__learn_more_link {
     text-align: center;
+}
+
+.spfx_page .bannerphoto {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-color: black;
+    position:relative;
+    background-position: -40px -70px;
 }
 
 /******** End spfx ipad *********/
@@ -826,7 +840,7 @@ hr {
 }
 
 .spfx_h1 {
-    font-size: 50px;
+    font-size: 46px;
     margin: 2px 40px;
     text-justify: center;
 }
@@ -861,16 +875,22 @@ hr {
     max-width: 500px; 
 }
 
+.spfx_page .bannerphoto {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-color: black;
+    position:relative;
+    background-position: -50px 0px;
+}
+
+
 /******** End spfx iphone *********/
 
 /******** start themes iphone *********/
 
 hr {
     width: 60%;
-}
-
-.themes .header__logo_title {
-    font-size: 25px;
 }
 
 .themes .bannerphoto {
