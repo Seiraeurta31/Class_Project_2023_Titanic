@@ -460,7 +460,9 @@ hr {
 }
 
 .spfx_page .bannerphoto {
-    background: url(./image/spfx-banner-titanic.jpg) no-repeat center;
+    background: url(./image/SpecialFX\ Banner.webp) no-repeat center;
+    background-size: cover;
+    background-position: 0px -250px;
 }
 
 /******** end spfx content *********/
@@ -628,6 +630,15 @@ hr {
 
 .spfx_topic___title, .spfx_topic__learn_more_link {
     text-align: center;
+}
+
+.spfx_page .bannerphoto {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-color: black;
+    position:relative;
+    background-position: -40px -70px;
 }
 
 /******** End spfx ipad *********/
@@ -863,6 +874,16 @@ hr {
     left: 20px;  
     max-width: 500px; 
 }
+
+.spfx_page .bannerphoto {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-color: black;
+    position:relative;
+    background-position: -50px 0px;
+}
+
 
 /******** End spfx iphone *********/
 

@@ -4,15 +4,15 @@
 
 # Teammate Wireframe for Inspiration:
 
-## Quynh's wirefram:
+## Quynh's wireframe:
 
-## Jenny's wirefram:
+## Jenny's wireframe:
 ![picture alt](./image/Jenny%20Mockup.jpg "Mock Up for Webpage")
 
-## Ashley's wirefram:
+## Ashley's wireframe:
 ![picture alt](./image/Ashley%20Wireframe.jpg "Mock Up for Webpage")
 
-## Jordans wirefram:
+## Jordans wireframe:
 ![picture alt](./image/Jordan%20Wireframe.jpg "Mock Up for Webpage")
 
 # Group Challenges 
