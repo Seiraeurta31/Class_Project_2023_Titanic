@@ -18,8 +18,7 @@ The website is built for SEO and accessibility across all platforms and showcase
 When we had our first meeting to bring up the ideas for the layout, everyone else in the group had design background so they created theirs on Illustrator or Canva. I thought the mockup was to do a website mockup so I created a website instead. My original layout still had the title in the middle with the navigation at the bottom, follow by the content in certain width similar to our past assignments, and everyone in the group had very similar colors. What included in my original mockup was also the responsive screens CSS. We each picked something we like from the four wireframes and since I already had the starting code, the members and I decided that I would do the layout. So before Ashley created the repository for the group, I used my wireframe to create the final mockup just to avoid all the pull requests for the edits and I can use my time to make sure the website looks like the final mockup. Then, when Ashley created the repository, I moved the code that I did from the mockup to my branch - hence the similarity from my wireframe to the final mockup.
 
 
-
-## Jenny's Wireframe:
+## Jenny's wireframe:
 ![picture alt](./image/Jenny%20Mockup.jpg "Jenny's wireframe")
 
 ## Ashley's Wireframe:
@@ -47,7 +46,7 @@ Wikipedia Contributors. (2018, November 25). Titanic (1997 film). Wikipedia; Wik
 (2023a). Shopify.com. https://cdn.shopify.com/s/files/1/1416/8662/products/titanic_1997_original_film_art_713cc08c-5fe2-49d1-bd32-51a1d5890d43.jpg?v=1675533926
 
 (2023b). Nocookie.net. https://static.wikia.nocookie.net/jamescameronstitanic/images/8/86/I%27mflyingscene.jpg/revision/latest?cb=20110322225905
-‌
+
 
 
 ## Jordan's Challenges:
