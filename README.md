@@ -10,7 +10,7 @@
 ![picture alt](./image/Jenny%20Mockup.jpg "Jenny's wireframe")
 
 ## Ashley's wireframe:
-![picture alt](./image/Ashley%20Wireframe.jpg "Ashley.s Wireframe")
+![picture alt](./image/Ashleys%20Wireframe.jpg "Ashley.s Wireframe")
 
 ## Jordans wireframe:
 ![picture alt](./image/Jordan%20Wireframe.jpg "Jordan's Wireframe")
