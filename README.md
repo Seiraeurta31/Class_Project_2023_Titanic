@@ -29,7 +29,9 @@ When we had our first meeting to bring up the ideas for the layout, everyone els
 ## Jordans Wireframe:
 ![picture alt](./image/Jordan%20Wireframe.jpg "Jordan's Wireframe")
 
- 
+My vision for the project was that the project would
+revolve around key themes that appear in the movie. There was a lot of symbolism and imagery that appeared in the movie and I was facinated by the level of forshadowing and hindsight presented. I had thought the pages could represent an important item in the film. For instance: The Heart of The Ocean for about, etc. I ended up repurposing this for my now themes page where I look into these topics on a deeper lens. 
+
 
 # Group Challenges 
 
@@ -58,6 +60,28 @@ I think the biggest challenge I had to undergo was the process of integrating my
 I don’t think there ever was an actual “burden.” I think this is due to Ashley's (our group lead) excellent job of delineating the schedule for the last three-four weeks. When it was time for me to start coding my page, I of course decided to take a look at the others and I was surprised at what I saw. There were some coding decisions in the website that I wouldn’t have necessarily made, there was some code that I didn’t even know existed. I found myself repeatedly going “We can do that with that?” I honestly learned more about HTML and CSS in this group than I have in the entire course just by simply working with my peers, going through trial and error, and us helping each other to craft this website. I am leaving this group in my opinion much more knowledgeable about HTML/CSS than I had prior and I am proud of the work that I have done for the group. If you must know something I am struggling with, it’s still media queries. They are not fun for me at all. Also, I struggled to combine CSS for efficiency. Every time I tried to group classes with similar written material, my page would break. I just gave up and hoped for the best. 
 
 As for my commits, I don’t think it’s necessarily fair to take my git commit history into account when looking at me compared to my peers. I tended to work in bulk throughout the assignment. I would commit almost 5-6 hours a day towards this since I started my work on March 24th. My page (themes) has the most written content on it. As such I did plenty of research, I watched the film all over again to understand its nuances, I looked over and helped my peers wherever I could, I participated in all of our meetings where our leader made several commits based on changes I wanted to see implemented, etc. I believe that I have had an impact on the project, (not the biggest per se,) but I don’t think I was a slouch at any point during the project. No one was. This was the most communicative and productive group, I have ever been in during my entire collegiate history. If you look at the additions I have made, they show a more realistic image and show that I have added just as much code as my peers. Again not the biggest, but enough to hold my own.
+
+## Themes Page Sources:
+
+The Academy. (2016, May 23). Titanic. Oscars.org | Academy of Motion Picture Arts and Sciences. https://www.oscars.org/collection-highlights/titanic
+
+Appelo, T. (2022, December 19). What you need to know about 'Titanic' on its 25th anniversary. AARP. https://www.aarp.org/entertainment/movies-for-grownups/info-2022/titanic-25th-anniversary
+
+Encyclopedia Britannica. (n.d.). Titanic - Aftermath of Titanic sinking. https://www.britannica.com/topic/Titanic/Aftermath-and-investigation
+
+Hunter, D. (2012, April 14). The real heart of the ocean. Scientific American Blog Network. https://blogs.scientificamerican.com/rosetta-stones/the-real-heart-of-the-ocean/
+
+Library of Congress. (2020, October 4). Immigrants in the progressive era | Progressive era to new era, 1900-1929 | U.S. history primary source timeline | Classroom materials at the Library of Congress | Library of Congress. The Library of Congress. https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/immigrants-in-progressive-era/#
+
+Molly Brown. (2012, June 12). Aftermath of the sinking of the Titanic. Molly Brown House Museum. https://mollybrown.org/aftermath-of-the-sinking-of-the-titanic
+
+National Oceanic and Atmospheric Administration. (2022, October 4). R.M.S Titanic - History and significance. https://www.noaa.gov/gc-international-section/rms-titanic-history-and-significance
+
+SOLAS. (n.d.). International convention for the safety of life at sea (SOLAS), 1974. https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx. https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx
+
+Theme and symbolic analysis of Titanic, inception and The great Gatsby. (2014, April 11). FilmAnalysisBerry. https://jlberryblog.wordpress.com/2014/04/11/theme-and-symbolic-analysis-of-titanic-inception-and-the-great-gatsby/
+
+Vargas, A. (2020, August 15). There's actually a realistic reason for 'Titanic's specific runtime. Showbiz Cheat Sheet. https://www.cheatsheet.com/entertainment/theres-actually-a-realistic-reason-for-titanics-specific-runtime.html/
 
 
 ## Ashley's Challenges:
