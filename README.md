@@ -116,3 +116,5 @@ I would consider my group to be very productive and communicative with one anoth
 
 ## Cast Sources:
 Pearl, D. (2022, December 20). The cast of Titanic: Where are they now? Peoplemag. Retrieved April 8, 2023, from https://people.com/movies/titanic-where-are-they-now/  
+
+McPherson, C. (2023, February 12). 'Titanic's 25th anniversary re-release sets sail with $22.3 million at the Global Box Office. Collider. Retrieved April 8, 2023, from https://collider.com/titanic-re-release-box-office-22-million/  
