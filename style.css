@@ -182,7 +182,8 @@ footer {
 }
 
 .cast-text {
-    font-size: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     color: black;
     margin-top: 30px;
@@ -212,6 +213,7 @@ footer {
     max-height: 275px;
     text-align: center;
     border: solid 5px;
+    color:rgb(64, 38, 9);
     border-color: rgb(215, 129, 43);
     padding: 10px;
     margin-bottom: 15px;
@@ -237,14 +239,14 @@ footer {
     justify-content: end;
     max-width: 2700px;
     background-color: rgb(237, 173, 108);
-    font-size: 18px;
-    font-family: serif;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     margin-top: 45px;
     border: solid black 1px;
     border-radius: 8px;
     margin-bottom: 50px;
-    padding: 5px;
+    padding: 8px;
 }
 
 .awards__button:hover {

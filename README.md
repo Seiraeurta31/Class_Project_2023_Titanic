@@ -114,3 +114,5 @@ I feel that I've come a long way with understanding CSS and HTML through creatin
 
 I would consider my group to be very productive and communicative with one another. We let each other know as we were making changes, offered constructive criticism and helped one another when needed. I knew I could count on them, especially given that I was nervous that I would know the least about coding going into it. They really have helped me understand some concepts that I struggled with previously. We used a rough outline of my mockup to inspire our page layout, and I feel proud of our design choices and stylizing! I must recognize Ashley's work with dealing with the repo and merging conflicts, since that was a roadblock we encountered a few times while collaborating on our shared CSS. All in all, I think my teammates did a great job, and I enjoyed the challenge of creating this site.
 
+## Cast Sources:
+Pearl, D. (2022, December 20). The cast of Titanic: Where are they now? Peoplemag. Retrieved April 8, 2023, from https://people.com/movies/titanic-where-are-they-now/  
