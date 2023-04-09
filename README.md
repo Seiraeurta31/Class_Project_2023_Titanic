@@ -5,7 +5,7 @@ The website is built for SEO and accessibility across all platforms and showcase
 
 
 
-# Final Website Styleguide/Mockup:
+# Final Website Style Guide/Mockup:
 
 ![picture alt](./image/Mock-Up.jpg "Mock Up for Webpage")
 
